@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-center bg-green-800 text-primary-content p-10">
+            <footer className="footer footer-center img_bg text-primary-content p-10">
                 <aside>
                     <svg
                     width="50"
