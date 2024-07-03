@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Title from "../Components/Title";
-import slide1 from '../assets/images/resume/Slide1.JPG'
+import slide1 from '../assets/images/resume/Slide1.jpg'
 
 
 const Resume = () => {
