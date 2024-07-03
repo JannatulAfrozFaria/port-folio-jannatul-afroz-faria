@@ -17,17 +17,6 @@ const AboutMe = () => {
                     {/* <img
                     src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
                     alt="Movie" /> */}
-                    <div className='text-left text-orange-200  text- md:text-base px-3 md:px-8 py-4'>
-                        <p className='text-orange-300 text-lg font-semibold'>As A Web Developer, I'm . . . </p>
-                        <li className='my-2'>Adaptive</li>
-                        <li className='my-2'>Hardworking</li>
-                        <li className='my-2'>Detail-Oriented</li>
-                        <li className='my-2'>Problem-Solver</li>
-                        <li className='my-2'>Team Player</li>
-                        <li className='my-2'>Self-Motivated</li>
-                        <li className='my-2'>Creative</li>
-                        <li className=''>Excellent Communicator</li>
-                    </div>
                 </figure>
             </div>
             <div className="w-full md:w-3/4">

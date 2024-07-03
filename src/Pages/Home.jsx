@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import '@fontsource/roboto/500.css';
 import AboutMe from './HomeSections/AboutMe';
 import card from '../assets/images/banner/5718116.png'
+import SkillSet from './HomeSections/SkillSet';
 
 
 const Home = () => {
@@ -27,22 +28,8 @@ const Home = () => {
                   </div>
               </div>
           </div>
-          {/* About Me------- */}
           <AboutMe></AboutMe>
-          {/* Technologies---------- */}
-          <div>
-            <p className='text-3xl my-6'>Technologies I know</p>
-            <div className='flex gap-4'>
-                <img width={'50px'} className='' src="https://i.ibb.co/6mXsJgx/html-5-icon-726x1024-evem6gg5.png" alt="HTML" />
-                <img width={'50px'}  className='' src="https://i.ibb.co/mRr6Rgs/css.png" alt="CSS" />
-                <img width={'50px'}  className='' src="https://i.ibb.co/q12wPdr/js.png" alt="JS" />
-                <img width={'50px'}  className='' src="https://i.ibb.co/RPXxDxG/tailwind.png" alt="Tailwind" />
-                <img width={'50px'}  className='' src="https://i.ibb.co/jrjDYLq/react.png" alt="React" />
-                <img width={'50px'}  className='' src="https://i.ibb.co/DMxdFmm/firebase.png" alt="Firebase" />
-                <img width={'50px'}  className='' src="https://i.ibb.co/pbLRSVY/mongodb-logo-D13-D67-C930-seeklogo-com.png" alt="MonoDB" />
-            </div>
-          </div>
-                
+          <SkillSet></SkillSet>
        </div>
     );
 };
