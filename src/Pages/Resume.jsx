@@ -1,6 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import Title from "../Components/Title";
-import slide1 from '../assets/images/resume/Slide1.jpg'
+import slide1 from '../assets/images/resume/Slide1.jpg';
+import slide2 from '../assets/images/resume/Slide2.jpg';
+import slide3 from '../assets/images/resume/Slide3.jpg';
+import slide4 from '../assets/images/resume/Slide4.jpg';
 
 
 const Resume = () => {
@@ -19,9 +22,18 @@ const Resume = () => {
                 <button className="btn btn-base" onClick={handleDownload}>Download Resume</button>
             </div>
             <Title title={'resume of'} heading={'Jannatul Afroz Faria'} subHeading={'Web Developer'}></Title>
-            <div className="grid">
+            <div className="grid grid-cols-1 gap-6">
                 <div>
                     <img src={slide1} alt="" />
+                </div>
+                <div>
+                    <img src={slide2} alt="" />
+                </div>
+                <div>
+                    <img src={slide3} alt="" />
+                </div>
+                <div>
+                    <img src={slide4} alt="" />
                 </div>
             </div>
         </div>
