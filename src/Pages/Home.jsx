@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import '@fontsource/roboto/500.css';
 import AboutMe from './HomeSections/AboutMe';
+import card from '../assets/images/banner/5718116.png'
 
 
 const Home = () => {
@@ -14,11 +15,11 @@ const Home = () => {
             <img className='w-[1280px]'  src="https://i.ibb.co/jWwvC1C/bg-01.jpg" alt="" />
               <div className='absolute left-16 md:left-32 top-6 md:top-16'>
                   {/* <p className='text-orange-200 z-10 ml-64'>Hello, I'm Jannatul Afroz Faria!</p> */}
-                  <div className="flex gap-6 md:gap-20 py-6 ">
+                  <div className="flex gap-6 md:gap-20 py-6 items-end">
                      <div>
                         <p className='text-orange-200 z-10 text-right text-base  md:text-4xl'>Hello, I'm Jannatul Afroz Faria!</p>
                         {/* <img width={'600px'} className='py-6' src="https://i.ibb.co/PcFKCRS/Card-V-2.png" alt="" /> */}
-                        <img className='py-6 w-[400px] md:w-[600px]' src="https://i.ibb.co/PcFKCRS/Card-V-2.png" alt="" />
+                        <img className='pt-6 w-[400px] md:w-[600px]' src='https://i.ibb.co/m8b52Sq/5718116.png' alt="" />
                      </div>
                      <div>
                           <img className='w-3/4 md:full' src="https://i.ibb.co/cybtGJN/banner-pic-removebg-preview.png" alt="" />
@@ -40,21 +41,6 @@ const Home = () => {
                 <img width={'50px'}  className='' src="https://i.ibb.co/DMxdFmm/firebase.png" alt="Firebase" />
                 <img width={'50px'}  className='' src="https://i.ibb.co/pbLRSVY/mongodb-logo-D13-D67-C930-seeklogo-com.png" alt="MonoDB" />
             </div>
-
-            <div className=''>
-                          {/* <p className='text-orange-300 text-lg font-semibold'>As A Web Developer, I'm . . . </p> */}
-                          {/* <div className='text-left'>
-                              <li className='text-orange-200 text-lg my-2'>Adaptive</li>
-                              <li className='text-orange-200 text-lg my-2'>Hardworking</li>
-                              <li className='text-orange-200 text-lg my-2'>Detail-Oriented</li>
-                              <li className='text-orange-200 text-lg my-2'>Problem-Solver</li>
-                              <li className='text-orange-200 text-lg my-2'>Team Player</li>
-                              <li className='text-orange-200 text-lg my-2'>Self-Motivated</li>
-                              <li className='text-orange-200 text-lg my-2'>Creative</li>
-                              <li className='text-orange-200 text-lg'>Excellent Communicator</li>
-                          </div> */}
-                      </div>
-           
           </div>
                 
        </div>

@@ -22,18 +22,18 @@ const Resume = () => {
                 <button className="btn btn-base" onClick={handleDownload}>Download Resume</button>
             </div>
             <Title title={'resume of'} heading={'Jannatul Afroz Faria'} subHeading={'Web Developer'}></Title>
-            <div className="grid grid-cols-1 gap-6">
-                <div>
-                    <img src={slide1} alt="" />
+            <div className="grid grid-cols-1 gap-6 mb-8 w-3/4 mx-auto">
+                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                    <img className="w-full" src={slide1} alt="" />
                 </div>
-                <div>
-                    <img src={slide2} alt="" />
+                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                    <img className="w-full" src={slide2} alt="" />
                 </div>
-                <div>
-                    <img src={slide3} alt="" />
+                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                    <img className="w-full" src={slide3} alt="" />
                 </div>
-                <div>
-                    <img src={slide4} alt="" />
+                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                    <img className="w-full" src={slide4} alt="" />
                 </div>
             </div>
         </div>
