@@ -9,6 +9,7 @@ import './index.css'
 import Root from './Root/Root.jsx';
 import Home from './Pages/Home.jsx';
 import {HelmetProvider } from 'react-helmet-async';
+import Resume from './Pages/Resume.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,7 +18,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
-      }
+      },
+      {
+        path: "/resume",
+        element: <Resume></Resume>
+      },
     ]
   },
 ]);

@@ -1,4 +1,6 @@
 import { FaGithub } from "react-icons/fa";
+import github from '../assets/images/icons/github2-removebg-preview.png'
+import insta from '../assets/images/icons/insta-removebg-preview.png'
 
 const Footer = () => {
     return (
@@ -24,24 +26,20 @@ const Footer = () => {
                     <p>Copyright © ${new Date().getFullYear()} - All right reserved</p>
                 </aside>
                 <nav>
-                    <div className="grid grid-flow-col gap-4">
-                    <a className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
-                        <FaGithub />
-                    </a>
-                    {/* MIddle */}
-                    <a >
-                        <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        className="fill-current">
-                        <path
-                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-                        </svg>
-                    </a>
+                    <div className="grid grid-flow-col gap-4 items-center  text-white">
+                        {/* GITHUB PROFILE----- */}
+                    <div >
+                        <a className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
+                            <img className="w-[30px]" src={github}alt="" />
+                        </a>
+                        
+                    </div>
+                    {/*Instagram----- */}
+                    <a className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
+                            <img className="w-[30px]" src={insta}alt="" />
+                        </a>
                     {/* FaceBook-------- */}
-                    <a className="hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
+                    <a  className=" hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
