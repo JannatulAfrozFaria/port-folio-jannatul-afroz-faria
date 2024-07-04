@@ -47,6 +47,8 @@ const Projects = () => {
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
                             <p> <span className="text-gray-300 font-medium ">Live Link : </span> <a href="https://asset-track-pro-34487.web.app/">Asset Track Pro Live Website</a> </p>
+                            <p> <span className="text-gray-300 font-medium ">GitHub Link (client-side) : </span> <a href="https://github.com/JannatulAfrozFaria/asset-track-pro-client">Asset Track Pro Client Side GitHub Link</a> </p>
+                            <p> <span className="text-gray-300 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/asset-track-pro-server">Asset Track Pro Server Side Github Link</a> </p>
                         </div>
                     </div>
                 </div>
