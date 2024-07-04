@@ -18,19 +18,32 @@ const ContactPage = () => {
                 {/* Email----- */}
                 <div className="card bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="">
+                        {/* Email */}
+                        <label className="form-control w-full">
+                            <div className="label">
+                                <span className="label-text">Full Name : </span>
+                            </div>
+                            <input type="text" placeholder="Full Name" className="input input-bordered w-full" required />
+                        </label>
+                        {/* Email */}
+                        <label className="form-control w-full">
+                            <div className="label">
+                                <span className="label-text">Email : </span>
+                            </div>
+                            <input type="email" placeholder="Email Id" className="input input-bordered w-full" required />
+                        </label>
+                        {/* Subject */}
                         <label className="form-control w-full">
                             <div className="label">
                                 <span className="label-text">Subject : </span>
                             </div>
-                            <input type="text" placeholder="Type here" className="input input-bordered w-full" value={subject} 
-                                onChange={(e) => setSubject(e.target.value)}  />
+                            <input type="text" placeholder="Type here" className="input input-bordered w-full" required  />
                         </label>
                         <label className="form-control w-full">
                             <div className="label">
                                 <span className="label-text">Body : </span>
                             </div>
-                            <textarea className="textarea textarea-bordered" placeholder="Your message . . ."  value={body} 
-                                onChange={(e) => setBody(e.target.value)} ></textarea>
+                            <textarea className="textarea textarea-bordered" placeholder="Your message . . ."  required ></textarea>
                         </label>
                         <button className=" btn btn-base w-full mt-4" onClick={handleEmailClick}>Send Email</button>
                     </div>
