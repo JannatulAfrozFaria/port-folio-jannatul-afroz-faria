@@ -2,13 +2,27 @@ import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 
 const ContactPage = () => {
-    const [subject, setSubject] = useState('');
-  const [body, setBody] = useState('');
-
   const handleEmailClick = () => {
-    const mailtoLink = `mailto:afroz_faria03@yahoo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
+    var params ={
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value,
+    }
+    const serviceID = "service_6aw8wve";
+    const templateID = "template_kvh696y";
+    emailjs.send(serviceID,templateID,params)
+    .then((res)=>{
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+        console.log(res);
+        alert("your message sent successfully");
+    })
+    .catch((err)=>console.log(err));
   };
+  
     return (
         <div>
              <Helmet>
