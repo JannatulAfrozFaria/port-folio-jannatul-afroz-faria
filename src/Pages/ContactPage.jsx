@@ -23,27 +23,27 @@ const ContactPage = () => {
                             <div className="label">
                                 <span className="label-text">Full Name : </span>
                             </div>
-                            <input type="text" placeholder="Full Name" className="input input-bordered w-full" required />
+                            <input id="name" type="text" placeholder="Full Name" className="input input-bordered w-full" required />
                         </label>
                         {/* Email */}
                         <label className="form-control w-full">
                             <div className="label">
                                 <span className="label-text">Email : </span>
                             </div>
-                            <input type="email" placeholder="Email Id" className="input input-bordered w-full" required />
+                            <input id="email" type="email" placeholder="Email Id" className="input input-bordered w-full" required />
                         </label>
                         {/* Subject */}
                         <label className="form-control w-full">
                             <div className="label">
                                 <span className="label-text">Subject : </span>
                             </div>
-                            <input type="text" placeholder="Type here" className="input input-bordered w-full" required  />
+                            <input id="subject" type="text" placeholder="Type here" className="input input-bordered w-full" required  />
                         </label>
                         <label className="form-control w-full">
                             <div className="label">
-                                <span className="label-text">Body : </span>
+                                <span className="label-text">Message : </span>
                             </div>
-                            <textarea className="textarea textarea-bordered" placeholder="Your message . . ."  required ></textarea>
+                            <textarea id="message" className="textarea textarea-bordered" placeholder="Your message . . ."  required ></textarea>
                         </label>
                         <button className=" btn btn-base w-full mt-4" onClick={handleEmailClick}>Send Email</button>
                     </div>
