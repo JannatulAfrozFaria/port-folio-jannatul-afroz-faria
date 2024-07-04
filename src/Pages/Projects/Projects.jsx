@@ -44,6 +44,10 @@ const Projects = () => {
                                 <img className='w-16' src="https://i.ibb.co/vJ9Cq7r/vercel.jpg" alt="Vercel" />
                             </div>
                         </div>
+                        <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
+                        <div>
+                            <p> <span className="text-gray-300 font-medium ">Live Link : </span> <a href="https://asset-track-pro-34487.web.app/">Asset Track Pro Live Website</a> </p>
+                        </div>
                     </div>
                 </div>
                 {/* Project---2 */}
