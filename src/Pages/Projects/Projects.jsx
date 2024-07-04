@@ -23,9 +23,9 @@ const Projects = () => {
                         <p>This is an asset management website where HR managers can manage, add, update and delete assets. Employees can create asset requests and HR managers can approve or reject those requests.</p>
                         <p className="text-lg font-medium text-yellow-500 ">Core Feature :</p>
                         <ul>
-                            <li> <span className="text-yellow-500 font-medium ">User Role Management: </span>Differentiates access controls and permissions for two user groups: Employees and HR Managers.</li>
-                            <li> <span className="text-yellow-500 font-medium ">Asset Request System: </span>Allows Employees to browse available assets and submit requests for the required assets.</li>
-                            <li> <span className="text-yellow-500 font-medium ">Comprehensive Dashboard: </span>Offers Employees a personal dashboard to track their requests and HR Managers an administrative dashboard to manage asset inventory and request approvals efficiently.</li>
+                            <li> <span className="text-gray-300 font-medium ">User Role Management: </span>Differentiates access controls and permissions for two user groups: Employees and HR Managers.</li>
+                            <li> <span className="text-gray-300 font-medium ">Asset Request System: </span>Allows Employees to browse available assets and submit requests for the required assets.</li>
+                            <li> <span className="text-gray-300 font-medium ">Comprehensive Dashboard: </span>Offers Employees a personal dashboard to track their requests and HR Managers an administrative dashboard to manage asset inventory and request approvals efficiently.</li>
                         </ul>
                     </div>
                 </div>
