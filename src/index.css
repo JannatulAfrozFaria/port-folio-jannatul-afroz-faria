@@ -17,6 +17,15 @@
     border-bottom-left-radius: 12px; */
     border-radius: 12px;
 }
+.img_bg3{
+    background-image: url(../src/assets/images/bg/bg-skill.jfif);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px; */
+    border-radius: 12px;
+}
 .text-basic{
     color: rgb(244, 203, 54);
     font-weight: 500;
