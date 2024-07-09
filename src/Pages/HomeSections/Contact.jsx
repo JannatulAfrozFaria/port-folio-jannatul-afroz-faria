@@ -10,13 +10,19 @@ const Contact = () => {
                 <div className="card bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="card-body">
                         <h2 className="card-title text-yellow-600">Social Links</h2>
-                        <div className="grid grid-cols-3 gap-3 mt-6">
+                        <div className="grid grid-cols-4 gap-3 mt-6 items-center">
                             <a className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
                                 <img className="w-[60px]" src='https://i.ibb.co/09mGkV2/github-green.png'alt="" />
                             </a>
+                            {/* linked----in */}
+                            <a className="hover:cursor-pointer" href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/">
+                                <img className="w-[50px]" src='https://i.ibb.co/5GBLJZZ/linkedin2.png'alt="" />
+                            </a>
+                            {/* INSTA___GRAM */}
                             <a className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
                                 <img className="w-[60px]" src='https://i.ibb.co/DLXLW91/insta.png'alt="" />
                             </a>
+                            {/* FACE----BOOK */}
                             <a className="hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
                                 <img className="w-[60px]" src='https://i.ibb.co/BsQ9x2V/fb-removebg-preview.png'alt="" />
                             </a>
