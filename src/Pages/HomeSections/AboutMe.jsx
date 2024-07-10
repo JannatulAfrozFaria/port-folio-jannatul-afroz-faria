@@ -14,9 +14,6 @@ const AboutMe = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 bg-base-100 shadow-xl rounded-xl">
             <div className="w-full md:1/4">
                 <figure className="img_bg2">
-                    {/* <img
-                    src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-                    alt="Movie" /> */}
                     <div className="p-6 text-left">
                         <p className='text-orange-300 text-lg font-semibold'>Committed to :</p>
                         <p  className='text-yellow-300 text-base '>Providing top-notch, scalable, and performant solutions, from creating user-friendly interfaces to putting strong front-end logic into place and interfacing with back-end systems. Continuously expanding my skill set, I stay up-to-date with the latest industry trends and best practices, ensuring efficient and maintainable code.</p>

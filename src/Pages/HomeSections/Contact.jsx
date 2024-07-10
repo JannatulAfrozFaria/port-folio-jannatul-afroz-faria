@@ -22,7 +22,7 @@ const Contact = () => {
                             <a className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
                                 <img className="w-[60px]" src='https://i.ibb.co/DLXLW91/insta.png'alt="" />
                             </a>
-                            {/* FACE----BOOK */}
+                            {/* FACEBOOK---Link */}
                             <a className="hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
                                 <img className="w-[60px]" src='https://i.ibb.co/BsQ9x2V/fb-removebg-preview.png'alt="" />
                             </a>
