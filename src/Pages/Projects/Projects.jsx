@@ -90,7 +90,7 @@ const Projects = () => {
                         {/* Project Links------ */}
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
-                            <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://career-bridge-a6961.web.app/addJob">
+                            <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://career-bridge-a6961.web.app/">
                             <span className="text-green-400">Career Bridge Live Website</span>
                             </a></p>
                             <p> <span className="text-gray-400 font-medium ">GitHub Link (client-side) : </span> <a href="https://github.com/JannatulAfrozFaria/career-bridge-client">
