@@ -25,7 +25,7 @@ const Navbar = () => {
         <li> <NavLink to='/' >Home</NavLink> </li>
         <li> <NavLink to='/education' >Education</NavLink> </li>
         <li> <NavLink to='/projects' >Projects</NavLink> </li>
-        <li> <NavLink to='/resume' >Resume</NavLink> </li>
+        <li> <NavLink to='/resume' >CV</NavLink> </li>
         <li> <NavLink to='/contactPage' >Contact</NavLink> </li>
     </>
     
