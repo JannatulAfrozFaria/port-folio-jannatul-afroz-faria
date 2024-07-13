@@ -16,12 +16,12 @@ const Resume = () => {
     return (
         <div>
              <Helmet>
-                <title>Resume | Jannatul Afroz Faria</title>
+                <title>CV | Jannatul Afroz Faria</title>
             </Helmet>
             <div className="mt-6">
-                <button className="btn btn-base" onClick={handleDownload}>Download Resume</button>
+                <button className="btn btn-base" onClick={handleDownload}>Download CV</button>
             </div>
-            <Title title={'resume of'} heading={'Jannatul Afroz Faria'} subHeading={'Web Developer'}></Title>
+            <Title title={'CV of'} heading={'Jannatul Afroz Faria'} subHeading={'Web Developer'}></Title>
             <div className="grid grid-cols-1 gap-6 mb-8 w-3/4 mx-auto">
                 <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide1} alt="" />
