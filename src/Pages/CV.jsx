@@ -9,8 +9,8 @@ import slide4 from '../assets/images/resume/Slide4.jpg';
 const CV = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = `/cv-jannatul-afroz-faria.pdf`;
-        link.download = 'cv-jannatul-afroz-faria.pdf';
+        link.href = `/cv_jannatul_Afroz_Faria_Front_End_Developer.pdf`;
+        link.download = 'cv_jannatul_Afroz_Faria_Front_End_Developer.pdf';
         link.click();
         }
     return (
