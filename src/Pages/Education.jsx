@@ -37,11 +37,6 @@ const Education = () => {
                 </div>
                  {/* College----name */}
                  <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
-                    <figure>
-                        <img className="w-[400px] h-[280px]"
-                        src={collegePhoto}
-                        alt="College" />
-                    </figure>
                     <div className="card-body text-left">
                         <div>
                             <img className="w-16" src={college} alt="" />
@@ -53,6 +48,11 @@ const Education = () => {
                             <p>GPA: 5.00/5.00</p>
                         </div>
                     </div>
+                    <figure>
+                        <img className="w-[400px] h-[280px]"
+                        src={collegePhoto}
+                        alt="College" />
+                    </figure>
                 </div>
                 {/* School----name */}
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
