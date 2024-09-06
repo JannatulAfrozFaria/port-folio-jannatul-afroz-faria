@@ -19,7 +19,7 @@ const Education = () => {
                 {/* UNiversity----name */}
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
-                        <img className="w-[300px]"
+                        <img className="w-[400px] h-[280px]"
                             src={university}
                             alt="university" />
                     </figure>
