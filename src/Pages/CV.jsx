@@ -19,7 +19,7 @@ const CV = () => {
                 <title>CV | Jannatul Afroz Faria</title>
             </Helmet>
             <div className="mt-6 w-5/6 mx-auto text-center">
-                <button className="btn btn-base" onClick={handleDownload}>Download CV</button>
+                <button className="btn btn-base w-32" onClick={handleDownload}>Download CV</button>
             </div>
             <Title title={'Curriculum Vitae of'} heading={'Jannatul Afroz Faria'} subHeading={'Web Developer'}></Title>
             <div className="grid grid-cols-1 gap-6 mb-8 w-3/4 mx-auto">
