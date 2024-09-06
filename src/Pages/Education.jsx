@@ -16,27 +16,27 @@ const Education = () => {
             </Helmet>
             <Title heading={'academic history'}></Title>
             <div className="grid grid-cols-1  gap-6">
-                {/* School----name */}
+                {/* UNiversity----name */}
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
-                        <img className="w-[400px] h-[280px]"
-                        src={schoolPhoto}
-                        alt="School" />
+                        <img className="w-[300px]"
+                            src={university}
+                            alt="university" />
                     </figure>
                     <div className="card-body text-left">
                         <div>
-                            <img className="w-16" src={school} alt="" />
+                            <img className="w-16" src={grad} alt="" />
                         </div>
-                        <h2 className="card-title">SSC</h2>
+                        <h2 className="card-title">Graduation</h2>
                         <div>
-                            <p>School : Dr. Khastagir GOvt. Girls' High School</p>
-                            <p>Passing Year: 2013</p>
-                            <p>GPA: 5.00/5.00</p>
+                            <p>University:  Chittagong University of Engineering and Technology</p>
+                            <p>Passing Year: 2022</p>
+                            <p>GPA: 3.20/4.00</p>
                         </div>
                     </div>
                 </div>
-                {/* College----name */}
-                <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
+                 {/* College----name */}
+                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
                         <img className="w-[400px] h-[280px]"
                         src={collegePhoto}
@@ -54,22 +54,22 @@ const Education = () => {
                         </div>
                     </div>
                 </div>
-                {/* UNiversity----name */}
+                {/* School----name */}
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
-                        <img className="w-[300px]"
-                            src={university}
-                            alt="university" />
+                        <img className="w-[400px] h-[280px]"
+                        src={schoolPhoto}
+                        alt="School" />
                     </figure>
                     <div className="card-body text-left">
                         <div>
-                            <img className="w-16" src={grad} alt="" />
+                            <img className="w-16" src={school} alt="" />
                         </div>
-                        <h2 className="card-title">Graduation</h2>
+                        <h2 className="card-title">SSC</h2>
                         <div>
-                            <p>University:  Chittagong University of Engineering and Technology</p>
-                            <p>Passing Year: 2022</p>
-                            <p>GPA: 3.20/4.00</p>
+                            <p>School : Dr. Khastagir GOvt. Girls' High School</p>
+                            <p>Passing Year: 2013</p>
+                            <p>GPA: 5.00/5.00</p>
                         </div>
                     </div>
                 </div>
