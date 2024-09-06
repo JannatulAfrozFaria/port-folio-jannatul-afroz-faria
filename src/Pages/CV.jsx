@@ -18,10 +18,11 @@ const CV = () => {
              <Helmet>
                 <title>CV | Jannatul Afroz Faria</title>
             </Helmet>
-            <div className="mt-6 w-5/6 mx-auto text-center">
-                <button className="btn btn-base w-32" onClick={handleDownload}>Download CV</button>
-            </div>
+           
             <Title title={'Curriculum Vitae of'} heading={'Jannatul Afroz Faria'} subHeading={'Web Developer'}></Title>
+            <div className="mt-6 w-5/6 mx-auto text-center mb-6">
+                <button className="btn btn-base w-72 " onClick={handleDownload}>Download CV</button>
+            </div>
             <div className="grid grid-cols-1 gap-6 mb-8 w-3/4 mx-auto">
                 <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide1} alt="" />
