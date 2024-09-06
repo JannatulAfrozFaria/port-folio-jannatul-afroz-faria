@@ -69,7 +69,7 @@ const Education = () => {
                         </div>
                         <h2 className="card-title">SSC</h2>
                         <div>
-                            <p>School : Dr. Khastagir GOvt. Girls' High School</p>
+                            <p>School : Dr. Khastagir Govt. Girls' High School</p>
                             <p>Passing Year: 2013</p>
                             <p>GPA: 5.00/5.00</p>
                         </div>
