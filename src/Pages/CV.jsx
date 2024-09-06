@@ -6,7 +6,7 @@ import slide3 from '../assets/images/resume/Slide3.jpg';
 import slide4 from '../assets/images/resume/Slide4.jpg';
 
 
-const Resume = () => {
+const CV = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = `/cv-jannatul-afroz-faria.pdf`;
@@ -40,4 +40,4 @@ const Resume = () => {
     );
 };
 
-export default Resume;
+export default CV ;

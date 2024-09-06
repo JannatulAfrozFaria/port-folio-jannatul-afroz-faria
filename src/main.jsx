@@ -9,7 +9,7 @@ import './index.css'
 import Root from './Root/Root.jsx';
 import Home from './Pages/Home.jsx';
 import {HelmetProvider } from 'react-helmet-async';
-import Resume from './Pages/Resume.jsx';
+import Resume from './Pages/CV.jsx';
 import ContactPage from './Pages/ContactPage.jsx';
 import Education from './Pages/Education.jsx';
 import Projects from './Pages/Projects/Projects.jsx';
@@ -17,6 +17,7 @@ import ProjectMenu from './Pages/Projects/ProjectMenu.jsx';
 import Project1 from './Pages/Projects/ProjectList/Project1.jsx';
 import Project2 from './Pages/Projects/ProjectList/Project2.jsx';
 import Project3 from './Pages/Projects/ProjectList/Project3.jsx';
+import CV from './Pages/CV.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,8 +36,8 @@ const router = createBrowserRouter([
         element: <Projects></Projects>
       },
       {
-        path: "/resume",
-        element: <Resume></Resume>
+        path: "/cv",
+        element: <CV></CV>
       },
       {
         path: "/contactPage",
