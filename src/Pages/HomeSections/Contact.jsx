@@ -47,7 +47,7 @@ const Contact = () => {
                     <div className="card-body">
                             <h2 className="card-title text-yellow-600">Whatsapp</h2>
                             <div className="mt-6">
-                               <p className="text-left text-yellow-400 border-2 border-yellow-500 bg-green-900 p-3">+8801301003006</p>
+                               <p className="text-left text-yellow-400 border-2 border-yellow-500 rounded-xl bg-green-900 p-3">+8801846442222</p>
                             </div>
                     </div>
                 </div>
