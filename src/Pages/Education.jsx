@@ -15,11 +15,11 @@ const Education = () => {
                 <title>Education | Jannatul Afroz Faria</title>
             </Helmet>
             <Title heading={'academic history'}></Title>
-            <div className="grid grid-cols-1  gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* UNiversity----name */}
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
-                        <img className="w-[400px] h-[280px]"
+                        <img className="w-[400px] h-full"
                             src={university}
                             alt="university" />
                     </figure>
@@ -38,10 +38,10 @@ const Education = () => {
                  {/* College----name */}
                  <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="card-body text-right">
-                        <div>
+                        <div className="w-full flex justify-end">
                             <img className="w-16" src={college} alt="" />
                         </div>
-                        <h2 className="card-title">HSC</h2>
+                        <h2 className="card-title flex justify-end" >HSC</h2>
                         <div>
                             <p>College : Chittagong College</p>
                             <p>Passing Year: 2015</p>
@@ -49,12 +49,14 @@ const Education = () => {
                         </div>
                     </div>
                     <figure>
-                        <img className="w-[400px] h-[280px]"
+                        <img className="w-[300px] h-full"
                         src={collegePhoto}
                         alt="College" />
                     </figure>
                 </div>
-                {/* School----name */}
+            </div>
+            {/* School----name */}
+            <div className="w-full md:w-1/2 mx-auto mt-6">
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
                         <img className="w-[400px] h-[280px]"
