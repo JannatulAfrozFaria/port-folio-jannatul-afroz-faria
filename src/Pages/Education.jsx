@@ -37,7 +37,7 @@ const Education = () => {
                 </div>
                  {/* College----name */}
                  <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
-                    <div className="card-body text-left">
+                    <div className="card-body text-right">
                         <div>
                             <img className="w-16" src={college} alt="" />
                         </div>
