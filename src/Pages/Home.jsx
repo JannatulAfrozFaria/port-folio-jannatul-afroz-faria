@@ -12,7 +12,7 @@ const Home = () => {
             <Helmet>
                 <title>Port Folio | Jannatul Afroz Faria</title>
             </Helmet>
-          <div className='relative'>
+          <div className='relative mt-12'>
             <img className='w-[1280px]'  src="https://i.ibb.co/jWwvC1C/bg-01.jpg" alt="" />
               <div className='absolute left-16 md:left-32 top-6 md:top-16'>
                   <div className="flex gap-6 md:gap-20 py-6 items-end">

@@ -31,7 +31,7 @@ const ContactPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                 {/* Email----- */}
                 <div className="card bg-base-100 shadow-xl border-2 border-yellow-500">
-                    <div className="p-4">
+                    <div className="pt-6 pb-8 px-8">
                         {/* Email */}
                         <label className="form-control w-full">
                             <div className="label">
