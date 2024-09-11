@@ -141,7 +141,7 @@ const Projects = () => {
                             </a></p>
                             <p> <span className="text-gray-400 font-medium ">GitHub Link (client-side) : </span> <a href="https://github.com/JannatulAfrozFaria/prime-picks-client">
                             <span className="text-green-400">Career Bridge Client Side GitHub Link</span></a></p>
-                            <p> <span className="text-gray-400 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/career-bridge-server">
+                            <p> <span className="text-gray-400 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/prime-picks-server">
                             <span className="text-green-400">Career Bridge Server Side Github Link</span></a> </p>
                         </div>
                     </div>
