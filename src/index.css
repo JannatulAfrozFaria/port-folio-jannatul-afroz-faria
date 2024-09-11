@@ -39,3 +39,10 @@
     color: rgb(70, 168, 70);
     font-weight: 500;
 }
+.active{
+    font-weight: bold !important;
+    color: rgb(241, 215, 149) !important;
+    /* color: green !important;
+    background-color: rgb(229, 209, 58) !important; */
+    text-decoration: underline;
+}
