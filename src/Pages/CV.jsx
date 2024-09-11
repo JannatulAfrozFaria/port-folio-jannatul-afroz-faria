@@ -23,7 +23,8 @@ const CV = () => {
             <div className="mt-6 w-5/6 mx-auto text-center mb-6">
                 <button className="btn btn-base w-72 " onClick={handleDownload}>Download CV</button>
             </div>
-            <Title heading={'Extra Curricular | Achievement'} subHeading={'Web Developer'}></Title>
+            {/* EXTRA CURRICULAR AND ACHIEVEMENT SECTION--------- */}
+            <Title heading={'Extra Curricular | Achievement'}></Title>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 w-3/4 mx-auto">
                 <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide1} alt="" />
@@ -47,7 +48,7 @@ const CV = () => {
                 </div>
                 <div className="shadow-lg shadow-green-700 card-body card-bordered rounded-3xl">
                     <p className="text-yellow-600 card-title ">Achievements & Awards
-                    <p><span className="text-yellow-600 font-medium" >Organization : </span>Biswa Shahitta Kendro</p>		 	  
+                    <p></p>		 	  
                     </p>
                     <p> <span className="text-yellow-600 font-medium" >First Prize | </span> Writing Competition</p>
                     <p> <span className="text-yellow-600 font-medium" >Winning Prize : </span>Visiting <span className="green-text">2</span> countries of Asia : <span className="green-text">Nepal & India</span>.</p>
