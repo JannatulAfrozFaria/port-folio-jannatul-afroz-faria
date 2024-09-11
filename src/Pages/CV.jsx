@@ -40,9 +40,9 @@ const CV = () => {
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
                 <div >
                     <p className="text-yellow-600 card-title">Extra Curricular</p>
-                    <p><span className="text-yellow-600" >Title:</span> Smart Book Writer</p>
-                    <p><span className="text-yellow-600" >Organization: </span>10 Minute School</p>
-                    <p> <span className="text-yellow-600" >Timeline: </span> January 2019 – December 2019 </p>
+                    <p><span className="text-yellow-600 font-medium" >Title:</span> Smart Book Writer</p>
+                    <p><span className="text-yellow-600 font-medium" >Organization: </span>10 Minute School</p>
+                    <p> <span className="text-yellow-600 font-medium" >Timeline: </span> January 2019 – December 2019 </p>
                 </div>
                 <div>
                     <p className="text-yellow-600">Achievements & Awards
