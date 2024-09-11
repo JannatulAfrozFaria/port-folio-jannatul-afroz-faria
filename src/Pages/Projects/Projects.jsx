@@ -96,8 +96,8 @@ const Projects = () => {
                         <p>This is your one-stop destination for finding the right medicine with ease and convenience. Whether you're looking for over-the-counter remedies, prescription drugs, or wellness products, Prime Pricks allows you to explore a comprehensive collection of medicines.</p>
                         <p className="text-lg font-medium text-yellow-500 ">Core Feature :</p>
                         <ul>
-                            <li> <span className="text-gray-400 font-medium ">User-friendly Interface:  </span>Intuitive design for effortless navigation and efficient job searching.</li>
-                            <li> <span className="text-gray-400 font-medium ">Mobile Accessibility:  </span>Seamless access on mobile devices, enabling job searching and networking on-the-go.</li>
+                            <li> <span className="text-gray-400 font-medium ">Advanced Filtering Options:  </span>Search for medicines by brand name, category, or date of addition, and filter them by price range to find exactly what you need.</li>
+                            <li> <span className="text-gray-400 font-medium ">Flexible Sorting:  </span>Enables HR Managers to view, accept, or decline asset requests submitted by Employees.</li>
                             <li> <span className="text-gray-400 font-medium ">Comprehensive Job Listings: </span>Offers Admins to add and post jobs. And Users can apply on those jobs.</li>
                         </ul>
                         {/* Technology----- */}
