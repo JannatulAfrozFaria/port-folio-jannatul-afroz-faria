@@ -109,9 +109,9 @@ const Projects = () => {
                         alt="Album" />
                     </figure>
                     <div className="card-body text-left">
-                        <h2 className="card-title text-yellow-500 font-semibold">Project Name: Career Bridge</h2>
+                        <h2 className="card-title text-yellow-500 font-semibold">Project Name: Prime Picks</h2>
                         <p className="text-lg text-yellow-500 font-medium">Description :</p>
-                        <p>This is a job seeking website where candidates can view and apply in various jobs. There are 4 categories of jobs. On-site, Remote, Part - Time, Full-Time. New Jobs can also be added here.</p>
+                        <p>This is your one-stop destination for finding the right medicine with ease and convenience. Whether you're looking for over-the-counter remedies, prescription drugs, or wellness products, Prime Pricks allows you to explore a comprehensive collection of medicines.</p>
                         <p className="text-lg font-medium text-yellow-500 ">Core Feature :</p>
                         <ul>
                             <li> <span className="text-gray-400 font-medium ">User-friendly Interface:  </span>Intuitive design for effortless navigation and efficient job searching.</li>
