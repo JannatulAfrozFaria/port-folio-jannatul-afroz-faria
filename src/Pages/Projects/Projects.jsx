@@ -107,7 +107,7 @@ const Projects = () => {
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
-                        src="https://i.ibb.co/X5zdNbT/360-F-498943157-fhn9l-PRGBl-Yt-LXN8-Cb-T4-Fsbt-Fc4ths-YP.jpg"
+                        src="https://i.postimg.cc/0jyPQdL7/istockphoto-1300036753-612x612.jpg"
                         alt="Album" />
                     </figure>
                     <div className="card-body text-left">
