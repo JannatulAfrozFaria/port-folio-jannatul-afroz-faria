@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import Title from "../Components/Title";
-import slide1 from '../assets/images/resume/Slide1.jpg';
-import slide2 from '../assets/images/resume/Slide2.jpg';
-import slide3 from '../assets/images/resume/Slide3.jpg';
-import slide4 from '../assets/images/resume/Slide4.jpg';
+import slide1 from '../assets/images/cv/Slide1.jpg';
+import slide2 from '../assets/images/cv/Slide2.jpg';
+import slide3 from '../assets/images/cv/Slide3.jpg';
+import slide4 from '../assets/images/cv/Slide4.jpg';
 
 
 const CV = () => {
