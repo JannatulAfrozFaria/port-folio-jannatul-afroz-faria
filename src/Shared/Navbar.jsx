@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     //state for changing theme
-    const [theme,setTheme]= useState('light');
+    const [theme,setTheme]= useState('forest');
 
     //Changing the Theme
     useEffect(()=>{
@@ -15,10 +15,10 @@ const Navbar = () => {
 
     const handleTheme = (e) =>{
         if(e.target.checked){
-            setTheme('forest')
+            setTheme('light')
         }
         else{
-            setTheme('light')
+            setTheme('forest')
         }
     }
     const Links = <>

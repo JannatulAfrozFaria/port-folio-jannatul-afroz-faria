@@ -23,8 +23,6 @@ const CV = () => {
             <div className="mt-6 w-5/6 mx-auto text-center mb-6">
                 <button className="btn btn-base w-72 " onClick={handleDownload}>Download CV</button>
             </div>
-            {/* EXTRA CURRICULAR AND ACHIEVEMENT SECTION--------- */}
-            <Title heading={'Added Value'}></Title>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 w-3/4 mx-auto">
                 <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide1} alt="" />
@@ -39,6 +37,8 @@ const CV = () => {
                     <img className="w-full" src={slide4} alt="" />
                 </div>
             </div>
+            {/* EXTRA CURRICULAR AND ACHIEVEMENT SECTION--------- */}
+            <Title heading={'Added Value'}></Title>
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
                 <div className="shadow-lg shadow-green-700 card-body card-bordered rounded-3xl" >
                     <p className="text-yellow-600 card-title">Extra Curricular</p>
