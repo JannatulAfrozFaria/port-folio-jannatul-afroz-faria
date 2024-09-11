@@ -51,7 +51,7 @@ const CV = () => {
 
                     Winning Prize: Visiting 2 countries of Asia : Nepal & India.
                     </p>
-                    <p> <span className="text-yellow-600 font-medium" >Winning Prize: </span> January 2019 – December 2019 </p>
+                    <p> <span className="text-yellow-600 font-medium" >Winning Prize : </span>Visiting 2 countries of Asia : Nepal & India.</p>
                 </div>
             </div>
         </div>
