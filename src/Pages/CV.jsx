@@ -37,7 +37,7 @@ const CV = () => {
                     <img className="w-full" src={slide4} alt="" />
                 </div>
             </div>
-            <div>
+            <div className=" mb-8 w-3/4 mx-auto">
                 <p>Achievements & Awards
                     First Prize | Writing Competition			 	  June, 2011
                     Organization: Biswa Shahitta Kendro
