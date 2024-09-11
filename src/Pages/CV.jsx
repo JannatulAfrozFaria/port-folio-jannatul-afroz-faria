@@ -37,8 +37,8 @@ const CV = () => {
                     <img className="w-full" src={slide4} alt="" />
                 </div>
             </div>
-            <div className=" mb-8 w-3/4 mx-auto">
-                <div>
+            <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
+                <div >
                     <p>Extra Curricular
                         Title: Smart Book Writer			                     (January 2019 – December 2019)
                         Organization: 10 Minute School
