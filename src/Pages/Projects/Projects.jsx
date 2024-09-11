@@ -1,7 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import Title from "../../Components/Title";
-import ProjectMenu from "./ProjectMenu";
-import usedTechnology from "../../Components/usedTechnology";
+import UsedTechnology from "../../Components/UsedTechnology";
+// import ProjectMenu from "./ProjectMenu";
+
 
 
 const Projects = () => {
@@ -122,7 +123,7 @@ const Projects = () => {
                         {/* Technology----- */}
                         <p className="text-lg text-yellow-500 font-medium">Used Technology :</p>
                         <div>
-                            <usedTechnology></usedTechnology>
+                            <UsedTechnology></UsedTechnology>
                         </div>
                         {/* Project Links------ */}
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>

@@ -1,6 +1,6 @@
 
 
-const usedTechnology = () => {
+const UsedTechnology = () => {
     return (
         <div>
             <div className='grid grid-cols-9 gap-2 w-1/2 items-center'>
@@ -18,4 +18,4 @@ const usedTechnology = () => {
     );
 };
 
-export default usedTechnology;
+export default UsedTechnology;
