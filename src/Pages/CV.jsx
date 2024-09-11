@@ -38,11 +38,19 @@ const CV = () => {
                 </div>
             </div>
             <div className=" mb-8 w-3/4 mx-auto">
-                <p>Achievements & Awards
+                <div>
+                    <p>Extra Curricular
+                        Title: Smart Book Writer			                     (January 2019 – December 2019)
+                        Organization: 10 Minute School
+                    </p>
+                </div>
+                <div>
+                    <p>Achievements & Awards
                     First Prize | Writing Competition			 	  June, 2011
                     Organization: Biswa Shahitta Kendro
                     Winning Prize: Visiting 2 countries of Asia : Nepal & India.
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
     );
