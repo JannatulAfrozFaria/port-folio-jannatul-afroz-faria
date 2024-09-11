@@ -139,7 +139,7 @@ const Projects = () => {
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://prime-picks-7409b.web.app/">
                             <span className="text-green-400">Career Bridge Live Website</span>
                             </a></p>
-                            <p> <span className="text-gray-400 font-medium ">GitHub Link (client-side) : </span> <a href="https://github.com/JannatulAfrozFaria/career-bridge-client">
+                            <p> <span className="text-gray-400 font-medium ">GitHub Link (client-side) : </span> <a href="https://github.com/JannatulAfrozFaria/prime-picks-client">
                             <span className="text-green-400">Career Bridge Client Side GitHub Link</span></a></p>
                             <p> <span className="text-gray-400 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/career-bridge-server">
                             <span className="text-green-400">Career Bridge Server Side Github Link</span></a> </p>
