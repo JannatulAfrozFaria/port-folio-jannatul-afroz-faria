@@ -49,8 +49,7 @@ const CV = () => {
                     <p><span className="text-yellow-600 font-medium" >Organization: </span>Biswa Shahitta Kendro</p>		 	  
                     </p>
                     <p> <span className="text-yellow-600 font-medium" >Timeline: </span> June, 2011</p>
-                    <p> <span className="text-yellow-600 font-medium" >Timeline: </span> June, 2011</p>
-                    First Prize | Writing Competition	
+                    <p> <span className="text-yellow-600 font-medium" >First Prize | </span> Writing Competition</p>
                     <p> <span className="text-yellow-600 font-medium" >Winning Prize : </span>Visiting <span className="green-text">2</span> countries of Asia : <span className="green-text">Nepal & India</span>.</p>
                 </div>
             </div>
