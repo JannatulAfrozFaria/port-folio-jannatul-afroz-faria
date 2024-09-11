@@ -11,6 +11,7 @@ const Projects = () => {
             </Helmet>
             <Title heading={'projects'}></Title>
             <div className="grid grid-cols-1 ">
+                 {/* Project---1 */}
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
@@ -101,6 +102,51 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project---3 */}
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                    <figure>
+                        <img className="w-[700px] h-full"
+                        src="https://i.ibb.co/X5zdNbT/360-F-498943157-fhn9l-PRGBl-Yt-LXN8-Cb-T4-Fsbt-Fc4ths-YP.jpg"
+                        alt="Album" />
+                    </figure>
+                    <div className="card-body text-left">
+                        <h2 className="card-title text-yellow-500 font-semibold">Project Name: Career Bridge</h2>
+                        <p className="text-lg text-yellow-500 font-medium">Description :</p>
+                        <p>This is a job seeking website where candidates can view and apply in various jobs. There are 4 categories of jobs. On-site, Remote, Part - Time, Full-Time. New Jobs can also be added here.</p>
+                        <p className="text-lg font-medium text-yellow-500 ">Core Feature :</p>
+                        <ul>
+                            <li> <span className="text-gray-400 font-medium ">User-friendly Interface:  </span>Intuitive design for effortless navigation and efficient job searching.</li>
+                            <li> <span className="text-gray-400 font-medium ">Mobile Accessibility:  </span>Seamless access on mobile devices, enabling job searching and networking on-the-go.</li>
+                            <li> <span className="text-gray-400 font-medium ">Comprehensive Job Listings: </span>Offers Admins to add and post jobs. And Users can apply on those jobs.</li>
+                        </ul>
+                        {/* Technology----- */}
+                        <p className="text-lg text-yellow-500 font-medium">Used Technology :</p>
+                        <div>
+                            <div className='grid grid-cols-9 gap-2 w-1/2 items-center'>
+                                <img className='w-12' src="https://i.ibb.co/Rb3zwyz/html1.png" alt="HTML" />
+                                <img className='w-12' src="https://i.ibb.co/g37V1Gd/css4.png" alt="CSS" />
+                                <img className='w-12' src="https://i.ibb.co/q12wPdr/js.png" alt="JS" />
+                                <img className='w-12' src="https://i.ibb.co/RPXxDxG/tailwind.png" alt="Tailwind" />
+                                <img className='w-12' src="https://i.ibb.co/jrjDYLq/react.png" alt="React" />
+                                <img className='w-12' src="https://i.ibb.co/DMxdFmm/firebase.png" alt="Firebase" />
+                                <img className='w-12' src="https://i.ibb.co/pbLRSVY/mongodb-logo-D13-D67-C930-seeklogo-com.png" alt="MonoDB" />
+                                <img className='w-12' src="https://i.ibb.co/MG8xR7v/express.jpg" alt="Express" />
+                                <img className='w-12' src="https://i.ibb.co/vJ9Cq7r/vercel.jpg" alt="Vercel" />
+                            </div>
+                        </div>
+                        {/* Project Links------ */}
+                        <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
+                        <div>
+                            <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://career-bridge-a6961.web.app/">
+                            <span className="text-green-400">Career Bridge Live Website</span>
+                            </a></p>
+                            <p> <span className="text-gray-400 font-medium ">GitHub Link (client-side) : </span> <a href="https://github.com/JannatulAfrozFaria/career-bridge-client">
+                            <span className="text-green-400">Career Bridge Client Side GitHub Link</span></a></p>
+                            <p> <span className="text-gray-400 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/career-bridge-server">
+                            <span className="text-green-400">Career Bridge Server Side Github Link</span></a> </p>
+                        </div>
+                    </div>
+                </div>
+                {/* Project---4 */}
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-6 md:mb-12">
                     <figure>
                         <img className="w-[700px] h-full"
