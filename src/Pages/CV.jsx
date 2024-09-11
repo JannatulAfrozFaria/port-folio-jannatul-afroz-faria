@@ -45,7 +45,7 @@ const CV = () => {
                     <p> <span className="text-yellow-600 font-medium" >Timeline: </span> January 2019 – December 2019 </p>
                 </div>
                 <div className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl">
-                    <p className="text-yellow-600">Achievements & Awards
+                    <p className="text-yellow-600 card-title ">Achievements & Awards
                     <p><span className="text-yellow-600 font-medium" >Organization: </span>Biswa Shahitta Kendro</p>		 	  
                     </p>
                     <p> <span className="text-yellow-600 font-medium" >Timeline: </span> June, 2011</p>
