@@ -48,8 +48,10 @@ const CV = () => {
                     <p className="text-yellow-600">Achievements & Awards
                     First Prize | Writing Competition			 	  June, 2011
                     Organization: Biswa Shahitta Kendro
+
                     Winning Prize: Visiting 2 countries of Asia : Nepal & India.
                     </p>
+                    <p> <span className="text-yellow-600 font-medium" >Winning Prize: </span> January 2019 – December 2019 </p>
                 </div>
             </div>
         </div>
