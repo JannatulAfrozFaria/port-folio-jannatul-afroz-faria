@@ -26,7 +26,6 @@ const AboutMe = () => {
                             <p  className='text-yellow-300 text-base'>Remote Job</p>
                         </div>
                     </div>
-                    
                 </figure>
             </div>
             <div className="w-full md:w-3/4 mt-6">
