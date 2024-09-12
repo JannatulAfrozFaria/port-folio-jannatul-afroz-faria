@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.img_bg_banner{
+    background-image: url('https://i.ibb.co/jWwvC1C/bg-01.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 28px;
+}
 .img_bg{
     background-image: url(../src/assets/images/footer-3.jpg);
     width: 100%;
@@ -45,4 +52,9 @@
     /* color: green !important;
     background-color: rgb(229, 209, 58) !important; */
     text-decoration: underline;
+}
+
+.text-footer{
+    color: rgb(207, 185, 106);
+    font-weight: 500;
 }

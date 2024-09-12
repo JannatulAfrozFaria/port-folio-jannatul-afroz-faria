@@ -5,7 +5,7 @@ import insta from '../assets/images/icons/insta-removebg-preview.png'
 const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-center img_bg text-primary-content p-10">
+            <footer className="footer footer-center img_bg text-primary-content p-10 text-footer">
                 <aside>
                     <svg
                     width="50"
