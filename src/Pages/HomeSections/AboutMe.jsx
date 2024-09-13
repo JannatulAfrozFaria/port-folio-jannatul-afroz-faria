@@ -29,7 +29,7 @@ const AboutMe = () => {
                 </figure>
             </div>
             <div className="w-full md:w-3/4 mt-6">
-                <h2 className="card-title text-yellow-600 text-lg font-semibold">About Me</h2>
+                <h2 className="card-title text-yellow-500 text-lg font-semibold">About Me</h2>
                 <div className="mb-6 text-justify text-yellow-300">
                     <p>I am an entry level frontend web developer skilled in building responsive and interactive user interfaces using modern web technologies such as HTML, CSS, Bootstrap, Tailwind CSS, React.js, and Node.js. 
                     </p>
