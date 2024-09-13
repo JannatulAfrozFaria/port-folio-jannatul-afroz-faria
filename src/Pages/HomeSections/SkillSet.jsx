@@ -17,6 +17,7 @@ const SkillSet = () => {
                             <img className='w-16' src="https://i.ibb.co/q12wPdr/js.png" alt="JS" />
                         </div>
                     </div>
+                    {/* Technologies and Tools----------- */}
                     <div>
                         <p className="text-orange-300 text-lg font-semibold mb-6">Technologies & Tools</p>
                         {/* <div className='grid grid-cols-3 gap-4'>
