@@ -17,6 +17,9 @@ import ProjectMenu from './Pages/Projects/ProjectMenu.jsx';
 import Project1 from './Pages/Projects/ProjectList/Project1.jsx';
 import Project2 from './Pages/Projects/ProjectList/Project2.jsx';
 import Project3 from './Pages/Projects/ProjectList/Project3.jsx';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 import CV from './Pages/CV.jsx';
 const router = createBrowserRouter([
   {
