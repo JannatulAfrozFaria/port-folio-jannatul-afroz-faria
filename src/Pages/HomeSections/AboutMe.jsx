@@ -30,7 +30,7 @@ const AboutMe = () => {
             </div>
             <div className="w-full md:w-3/4 mt-6">
                 <h2 className="card-title text-yellow-600 text-lg font-semibold">About Me</h2>
-                <div className="mb-6 text-justify text-yellow-600">
+                <div className="mb-6 text-justify text-yellow-300">
                     <p>I am an entry level frontend web developer skilled in building responsive and interactive user interfaces using modern web technologies such as HTML, CSS, Bootstrap, Tailwind CSS, React.js, and Node.js. 
                     </p>
                     <p>I am capable of creating single-page applications and managing and storing data with MongoDB. With a passion for creating seamless user experiences, I thrive in collaborative environments where I can contribute to the full lifecycle of web development. 
