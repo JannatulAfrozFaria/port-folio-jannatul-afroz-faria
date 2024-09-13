@@ -2,7 +2,8 @@
 
 const Technologies = () => {
     return (
-        <div>
+        <div className="w-3/4 ">
+            <p className="text-orange-300 text-lg font-semibold mb-6">Technologies & Tools</p>
             <div className='grid grid-cols-3 gap-2  items-center'>
                  <img className='w-16 rounded-lg' src="https://i.ibb.co/RPXxDxG/tailwind.png" alt="Tailwind" />
                 <img className='w-16 rounded-lg' src="https://i.ibb.co/jrjDYLq/react.png" alt="React" />
