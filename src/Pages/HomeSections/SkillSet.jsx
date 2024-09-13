@@ -10,9 +10,9 @@ const SkillSet = () => {
             <div className=" img_bg3 my-8 p-8 md:py-24 md:px-12 shadow-xl rounded-2xl ">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-20 w-5/6 mx-auto">
                 {/* LANGUAGES---------- */}
-                    <div className="text-center md:text-left">
-                        <p className="text-orange-300 text-lg font-semibold mb-6">Programming Languages</p>
-                        <div className='flex gap-4 w-full md:w-3/4 justify-center md:justify-start'>
+                    <div>
+                        <p className="text-orange-300 text-lg font-semibold mb-6 text-center ">Programming Languages</p>
+                        <div className='flex gap-4 justify-center'>
                             <img className='w-16' src="https://i.ibb.co/Rb3zwyz/html1.png" alt="HTML" />
                             <img className='w-16' src="https://i.ibb.co/g37V1Gd/css4.png" alt="CSS" />
                             <img className='w-16' src="https://i.ibb.co/q12wPdr/js.png" alt="JS" />
