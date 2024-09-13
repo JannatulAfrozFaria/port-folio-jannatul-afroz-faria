@@ -1,3 +1,4 @@
+import Technologies from "../../Components/Technologies";
 import Title from "../../Components/Title";
 import UsedTechnology from "../../Components/UsedTechnology";
 
@@ -28,7 +29,7 @@ const SkillSet = () => {
                             <img className='w-16 h-16' src="https://i.ibb.co/MG8xR7v/express.jpg" alt="Express" />
                             <img className='w-16' src="https://i.ibb.co/vJ9Cq7r/vercel.jpg" alt="Vercel" />
                         </div> */}
-                        <UsedTechnology></UsedTechnology>
+                        <Technologies></Technologies>
                     </div>
                 </div>
                 <div className='text-left text-orange-200  text- md:text-base'>
