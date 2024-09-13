@@ -11,7 +11,7 @@ const AboutMe = () => {
   return (
     <div>
         <Title heading={'introduction'}></Title>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 bg-orange-100 shadow-xl rounded-xl">
+        <div className="img_bg_about_me grid grid-cols-1 md:grid-cols-2 gap-6 p-6 shadow-xl rounded-xl">
             <div className="w-full md:1/4">
                 <figure className="img_bg2">
                     <div className="p-6 text-justify">
