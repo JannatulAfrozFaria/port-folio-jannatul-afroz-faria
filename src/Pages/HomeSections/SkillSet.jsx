@@ -23,9 +23,9 @@ const SkillSet = () => {
                         <Technologies></Technologies>
                     </div>
                     {/* SOFT-----SKILLS----- */}
-                    <div className='text-left text-orange-200  text- md:text-base'>
-                        <p className='text-orange-300 text-lg font-semibold mb-6'>As A Web Developer, I'm . . . </p>
-                        <div className="flex gap-12 md:gap-8 items-baseline">
+                    <div className='text-orange-200  text- md:text-base'>
+                        <p className=' text-center md:text-left text-orange-300 text-lg font-semibold mb-6'>As A Web Developer, I'm . . . </p>
+                        <div className="flex gap-12 md:gap-8 items-baseline justify-center md:justify-start">
                             <div >
                                 <li className='my-2'>Hardworking</li>
                                 <li className='my-2'>Self-Motivated</li>
