@@ -21,8 +21,7 @@ const CV = () => {
             <div data-aos="flip-down" data-aos-delay="500" data-aos-duration="2000">
                 <Title title={'Curriculum Vitae of'} heading={'Jannatul Afroz Faria'} subHeading={'Web Developer'}></Title>
             </div>
-            
-            <div className="mt-6 w-5/6 mx-auto text-center mb-6">
+            <div data-aos="flip-up" data-aos-delay="1000" data-aos-duration="2000" className="mt-6 w-5/6 mx-auto text-center mb-6">
                 <button className="btn btn-base w-72 " onClick={handleDownload}>Download CV</button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 w-3/4 mx-auto">
