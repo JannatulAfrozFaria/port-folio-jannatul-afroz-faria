@@ -15,7 +15,7 @@ const Projects = () => {
                 <Title heading={'projects'}></Title>
             </div>
             
-            <div className="grid grid-cols-1 ">
+            <div data-aos="zoom-in" data-aos-delay="15000" data-aos-duration="3000" className="grid grid-cols-1 ">
                  {/* Project---1 */}
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
