@@ -8,9 +8,8 @@ const Contact = () => {
             <div data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2000">
                 <Title heading={'contact'}></Title>
             </div>
-            
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-                <div className="card bg-base-100 shadow-xl border-2 border-yellow-500">
+                <div data-aos="fade-right" data-aos-delay="1500" data-aos-duration="2000" className="card bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="card-body">
                         <h2 className="card-title text-yellow-600">Social Links</h2>
                         <div className="grid grid-cols-4 gap-3 mt-6 items-center">
@@ -33,7 +32,7 @@ const Contact = () => {
                     </div>
                 </div>
                 {/* EMail -------*/}
-                <div className="card bg-base-100 shadow-xl border-2 border-yellow-500">
+                <div data-aos="fade-up" data-aos-delay="2000" data-aos-duration="2000" className="card bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="card-body">
                             <h2 className="card-title text-yellow-600">Email</h2>
                             <div className="mt-6">
@@ -46,7 +45,7 @@ const Contact = () => {
                     </div>
                 </div>
                 {/* Phone Number------ */}
-                <div className="card bg-base-100 shadow-xl border-2 border-yellow-500">
+                <div data-aos="fade-left" data-aos-delay="2500" data-aos-duration="2000" className="card bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="card-body">
                             <h2 className="card-title text-yellow-600">Whatsapp</h2>
                             <div className="mt-6">
