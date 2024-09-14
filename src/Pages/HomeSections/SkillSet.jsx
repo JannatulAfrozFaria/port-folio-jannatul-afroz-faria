@@ -22,7 +22,7 @@ const SkillSet = () => {
                         </div>
                     </div>
                     {/* Technologies and Tools----------- */}
-                    <div data-aos="Zoom-in" data-aos-delay="1000" data-aos-duration="2000">
+                    <div data-aos="Zoom-in" data-aos-delay="2000" data-aos-duration="2000">
                         <Technologies></Technologies>
                     </div>
                     {/* SOFT-----SKILLS----- */}
