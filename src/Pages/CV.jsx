@@ -39,12 +39,11 @@ const CV = () => {
                 </div>
             </div>
             {/* EXTRA CURRICULAR AND ACHIEVEMENT SECTION--------- */}
-            <div data-aos="flip-down" data-aos-delay="500" data-aos-duration="2000">
+            <div data-aos="fade-up-right" data-aos-delay="2500" data-aos-duration="2000">
                     <Title heading={'Added Value'}></Title>
             </div>
-            
-            <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
-                <div className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
+            <div data-aos="fade-up-left" data-aos-delay="2500" data-aos-duration="2000" className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
+                <div  className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
                     <p className="text-yellow-600 card-title">Extra Curricular</p>
                     <p><span className="text-yellow-600 font-medium" >Title :</span> Smart Book Writer</p>
                     <p><span className="text-yellow-600 font-medium" >Organization : </span>10 Minute School</p>
