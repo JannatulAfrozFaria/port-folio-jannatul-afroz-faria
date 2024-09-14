@@ -15,9 +15,9 @@ const Projects = () => {
                 <Title heading={'projects'}></Title>
             </div>
             
-            <div data-aos="zoom-in" data-aos-delay="15000" data-aos-duration="3000" className="grid grid-cols-1 ">
+            <div  className="grid grid-cols-1 ">
                  {/* Project---1 */}
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                <div data-aos="zoom-in" data-aos-delay="15000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                         src="https://i.ibb.co/MCty8YK/notebook.png"
