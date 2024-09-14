@@ -28,9 +28,9 @@ const Footer = () => {
                     
                 </aside>
                 <nav>
-                    <div  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2500"  className="grid grid-flow-col gap-4 items-center  text-white">
+                    <div  className="grid grid-flow-col gap-4 items-center  text-white">
                         {/* GITHUB PROFILE----- */}
-                    <div >
+                    <div  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2500" >
                         <a className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
                             <img className="w-[30px]" src={github}alt="" />
                         </a>
