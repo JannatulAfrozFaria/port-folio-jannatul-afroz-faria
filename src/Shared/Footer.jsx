@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className="footer footer-center img_bg text-primary-content p-10 text-footer">
                 <aside>
-                    <div>
+                    <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
                         <svg
                         width="50"
                         height="50"
