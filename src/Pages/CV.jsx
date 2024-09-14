@@ -25,21 +25,24 @@ const CV = () => {
                 <button className="btn btn-base w-72 " onClick={handleDownload}>Download CV</button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 w-3/4 mx-auto">
-                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide1} alt="" />
                 </div>
-                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide2} alt="" />
                 </div>
-                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                <div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="2000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide3} alt="" />
                 </div>
-                <div className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
+                <div data-aos="fade-up" data-aos-delay="2000" data-aos-duration="2000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide4} alt="" />
                 </div>
             </div>
             {/* EXTRA CURRICULAR AND ACHIEVEMENT SECTION--------- */}
-            <Title heading={'Added Value'}></Title>
+            <div data-aos="flip-down" data-aos-delay="500" data-aos-duration="2000">
+                    <Title heading={'Added Value'}></Title>
+            </div>
+            
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
                 <div className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
                     <p className="text-yellow-600 card-title">Extra Curricular</p>
