@@ -37,7 +37,7 @@ const Footer = () => {
                         
                     </div>
                     {/*Instagram----- */}
-                    <a className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
+                    <a  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2500"  className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
                             <img className="w-[30px]" src={insta}alt="" />
                         </a>
                     {/* FaceBook-------- */}
