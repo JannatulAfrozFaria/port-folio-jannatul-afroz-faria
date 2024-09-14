@@ -87,7 +87,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project---3 */}
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                <div data-aos="zoom-in" data-aos-delay="2500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                         src="https://i.postimg.cc/0jyPQdL7/istockphoto-1300036753-612x612.jpg"
