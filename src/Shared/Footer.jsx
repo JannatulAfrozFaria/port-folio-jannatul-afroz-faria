@@ -41,7 +41,7 @@ const Footer = () => {
                             <img className="w-[30px]" src={insta}alt="" />
                         </a>
                     {/* FaceBook-------- */}
-                    <a  className=" hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
+                    <a   data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2500"  className=" hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
