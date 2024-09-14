@@ -14,7 +14,7 @@ const Education = () => {
             <Helmet>
                 <title>Education | Jannatul Afroz Faria</title>
             </Helmet>
-            <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="2000">
+            <div data-aos="flip-down" data-aos-delay="500" data-aos-duration="2000">
                 <Title heading={'academic history'}></Title>
             </div>
             
