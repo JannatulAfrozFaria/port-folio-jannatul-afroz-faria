@@ -17,7 +17,7 @@ const Projects = () => {
             
             <div  className="grid grid-cols-1 ">
                  {/* Project---1 */}
-                <div data-aos="zoom-in" data-aos-delay="15000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                         src="https://i.ibb.co/MCty8YK/notebook.png"
@@ -52,7 +52,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project---2 */}
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                         src="https://i.ibb.co/X5zdNbT/360-F-498943157-fhn9l-PRGBl-Yt-LXN8-Cb-T4-Fsbt-Fc4ths-YP.jpg"
