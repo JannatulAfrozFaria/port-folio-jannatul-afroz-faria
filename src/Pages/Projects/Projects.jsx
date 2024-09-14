@@ -52,7 +52,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project---2 */}
-                <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                <div data-aos="flip up" data-aos-delay="2000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                         src="https://i.ibb.co/X5zdNbT/360-F-498943157-fhn9l-PRGBl-Yt-LXN8-Cb-T4-Fsbt-Fc4ths-YP.jpg"
@@ -122,7 +122,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project---4 */}
-                <div data-aos="zoom-in" data-aos-delay="3000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6 md:mb-12">
+                <div data-aos="flip-up" data-aos-delay="3000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6 md:mb-12">
                     <figure>
                         <img className="w-[700px] h-full"
                         src="https://i.ibb.co/xXDBv7V/3.png"
