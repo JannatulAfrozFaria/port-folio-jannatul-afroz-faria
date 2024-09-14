@@ -10,7 +10,7 @@ const SkillSet = () => {
                     <Title heading={'skillset'}></Title>
             </div>
             
-            <div className=" img_bg3 my-8 p-8 md:py-24 md:px-12 shadow-xl rounded-2xl ">
+            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className=" img_bg3 my-8 p-8 md:py-24 md:px-12 shadow-xl rounded-2xl ">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-20 w-5/6 mx-auto">
                 {/* LANGUAGES---------- */}
                     <div>
