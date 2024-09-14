@@ -68,7 +68,7 @@ const ContactPage = () => {
                 </div>
                <div className="grid grid-cols-1 gap-6">
                     {/* Social Kinks------ */}
-                    <div data-aos="zoom-in-left" data-aos-delay="1500" data-aos-duration="2000" className="card bg-base-100  shadow-xl border-2 border-yellow-500">
+                    <div data-aos="zoom-in-left" data-aos-delay="1500" data-aos-duration="3000" className="card bg-base-100  shadow-xl border-2 border-yellow-500">
                         <div className="card-body">
                             <h2 className="card-title text-yellow-600">Social Links</h2>
                             <div className="grid grid-cols-4 gap-3 mt-6 items-center">
