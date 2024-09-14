@@ -14,7 +14,10 @@ const Education = () => {
             <Helmet>
                 <title>Education | Jannatul Afroz Faria</title>
             </Helmet>
-            <Title heading={'academic history'}></Title>
+            <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="2000">
+                <Title heading={'academic history'}></Title>
+            </div>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* UNiversity----name */}
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
