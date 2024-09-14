@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
+import Title from "../Components/Title";
 
 const ContactPage = () => {
   const handleEmailClick = () => {
@@ -26,6 +27,9 @@ const ContactPage = () => {
     return (
         <div>
              <Helmet>
+             <div data-aos="flip-down" data-aos-delay="500" data-aos-duration="2000">
+                <Title heading={'Contact Info'}></Title>
+            </div>
                 <title>Contact | Jannatul Afroz Faria</title>
             </Helmet>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
