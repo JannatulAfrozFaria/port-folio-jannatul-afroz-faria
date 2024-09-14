@@ -30,12 +30,9 @@ const Footer = () => {
                 <nav>
                     <div  className="grid grid-flow-col gap-4 items-center  text-white">
                         {/* GITHUB PROFILE----- */}
-                    <div  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2500" >
-                        <a className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
+                        <a data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2500" className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
                             <img className="w-[30px]" src={github}alt="" />
                         </a>
-                        
-                    </div>
                     {/*Instagram----- */}
                     <a  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2500"  className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
                             <img className="w-[30px]" src={insta}alt="" />
