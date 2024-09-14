@@ -5,7 +5,10 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
     return (
         <div>
-            <Title heading={'contact'}></Title>
+            <div data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2000">
+                <Title heading={'contact'}></Title>
+            </div>
+            
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
                 <div className="card bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="card-body">
