@@ -59,7 +59,7 @@ const Education = () => {
                 </div>
             </div>
             {/* School----name */}
-            <div className="w-full md:w-1/2 mx-auto mt-6">
+            <div data-aos="flip-left" data-aos-delay="1500" data-aos-duration="3000" className="w-full md:w-1/2 mx-auto mt-6">
                 <div className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
                         <img className="w-[400px] h-[280px]"
