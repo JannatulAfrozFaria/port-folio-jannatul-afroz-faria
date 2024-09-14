@@ -27,11 +27,11 @@ const ContactPage = () => {
     return (
         <div>
              <Helmet>
-             <div data-aos="flip-down" data-aos-delay="500" data-aos-duration="2000">
-                <Title heading={'Contact Info'}></Title>
-            </div>
                 <title>Contact | Jannatul Afroz Faria</title>
             </Helmet>
+            <div data-aos="flip-down" data-aos-delay="500" data-aos-duration="2000">
+                <Title heading={'Contact Info'}></Title>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                 {/* Email----- */}
                 <div data-aos="zoom-in-right" data-aos-delay="1000" data-aos-duration="2000" className="card bg-base-100 shadow-xl border-2 border-yellow-500">
