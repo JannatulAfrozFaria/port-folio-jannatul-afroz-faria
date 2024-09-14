@@ -11,7 +11,10 @@ const Projects = () => {
              <Helmet>
                 <title>Projetcs | Jannatul Afroz Faria</title>
             </Helmet>
-            <Title heading={'projects'}></Title>
+            <div data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2000">
+                <Title heading={'projects'}></Title>
+            </div>
+            
             <div className="grid grid-cols-1 ">
                  {/* Project---1 */}
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-6">
