@@ -20,7 +20,7 @@ const Education = () => {
             
             <div  className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* UNiversity----name */}
-                <div data-aos="flip-fade-down-right" data-aos-delay="1000" data-aos-duration="2000" className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
+                <div data-aos="fade-down-right" data-aos-delay="1000" data-aos-duration="3000" className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <figure>
                         <img className="w-[400px] h-full"
                             src={university}
@@ -39,7 +39,7 @@ const Education = () => {
                     </div>
                 </div>
                  {/* College----name */}
-                 <div data-aos="flip-fade-down-left" data-aos-delay="1000" data-aos-duration="2000" className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
+                 <div data-aos="fade-down-left" data-aos-delay="1000" data-aos-duration="3000" className="card card-side bg-base-100 shadow-xl border-2 border-yellow-500">
                     <div className="card-body text-right">
                         <div className="w-full flex justify-end">
                             <img className="w-16" src={college} alt="" />
