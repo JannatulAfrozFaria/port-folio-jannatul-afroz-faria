@@ -3,7 +3,7 @@
 const UsedTechnology = () => {
     return (
         <div>
-            <div className='flex gap-2  items-center'>
+            <div className='grid grid-cols-4 md:grid-cols-8 gap-2 items-center w-4/5 md:w-5/6'>
                  <img className='w-16 rounded-lg' src="https://i.ibb.co/RPXxDxG/tailwind.png" alt="Tailwind" />
                 <img className='w-16 rounded-lg' src="https://i.ibb.co/jrjDYLq/react.png" alt="React" />
                

@@ -28,27 +28,34 @@ const Footer = () => {
                     
                 </aside>
                 <nav>
-                    <div  className="grid grid-flow-col gap-4 items-center  text-white">
+                    <div className="grid grid-flow-col gap-4 items-center  text-white">
                         {/* GITHUB PROFILE----- */}
-                        <a data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2500" className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
-                            <img className="w-[30px]" src={github}alt="" />
-                        </a>
-                    {/*Instagram----- */}
-                    <a  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2500"  className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
-                            <img className="w-[30px]" src={insta}alt="" />
-                        </a>
-                    {/* FaceBook-------- */}
-                    <a   data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2500"  className=" hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
-                        <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        className="fill-current">
-                        <path
-                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-                        </svg>
-                    </a>
+                        <div >
+                            <a  className="hover:cursor-pointer" href="https://github.com/JannatulAfrozFaria">
+                                <img className="w-[30px]" src={github}alt="" />
+                            </a>
+                        </div>
+                        {/*Instagram----- */}
+                        <div >
+                            <a    className="hover:cursor-pointer" href="https://www.instagram.com/afroz_faria03/">
+                                <img className="w-[30px]" src={insta}alt="" />
+                            </a>
+                        </div>
+                        
+                        {/* FaceBook-------- */}
+                        <div  >
+                            <a    className=" hover:cursor-pointer" href="https://www.facebook.com/profile.php?id=100000633748736">
+                                <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            className="fill-current">
+                                <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </nav>
             </footer>
