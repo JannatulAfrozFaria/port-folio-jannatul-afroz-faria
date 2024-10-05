@@ -7,11 +7,6 @@ const ProjectLayOut2 =({image,name,description, feature1Title,feature1Des, featu
     return (
         <div>
             <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-base-100 shadow-xl mb-6">
-                <figure>
-                    <img className="h-full"
-                        src={image}
-                        alt="Album" />
-                </figure>
                 <div className="card-body text-left md:text-justify">
                     <h2 className="card-title text-yellow-500 font-semibold">Project Name: {name}</h2>
                     <p className="text-lg text-yellow-500 font-medium">Description :</p>
@@ -35,6 +30,11 @@ const ProjectLayOut2 =({image,name,description, feature1Title,feature1Des, featu
                         <LinkButton text={'Server-Repository'} icon={<FaGithub />} link={ServerRepo} ></LinkButton>
                     </div>
                 </div>
+                <figure>
+                    <img className="h-full"
+                        src={image}
+                        alt="Album" />
+                </figure>
             </div>
         </div>
     );

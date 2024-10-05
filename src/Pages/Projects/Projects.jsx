@@ -4,6 +4,7 @@ import UsedTechnology from "../../Components/UsedTechnology";
 import LinkButton from "../../assets/Components/LinkButton";
 import { FaGithub } from "react-icons/fa";
 import ProjectLayOut1 from "./ProjectComponent/ProjectLayOut1";
+import ProjectLayOut2 from "./ProjectComponent/ProjectLayOut2";
 // import ProjectMenu from "./ProjectMenu";
 
 
@@ -177,6 +178,14 @@ const Projects = () => {
                 </div> */}
                 
                 {/* Project---5 */}
+                <ProjectLayOut2 image={'https://i.ibb.co/xXDBv7V/3.png'} name={'Tourista'} description={"This is a tourism related website where various tourist spots can be added by users. The spot cards can be updated and deleted by the users."} 
+                feature1Title={'Comprehensive Destination Guides'} feature1Des={'Explore detailed insights into Asian destinations, from iconic landmarks to hidden gems.'} 
+                feature2Title={'Cultural Experiences'} feature2Des={'Immerse yourself in authentic traditions through curated tours and local experiences.'} 
+                feature3Title={'Engaging Content'} feature3Des={'Stay informed and inspired with articles, photos, and videos showcasing the beauty and diversity of Asia.'} 
+                LiveLink={'https://tourista-24a6c.web.app/'}
+                ClientRepo={'https://github.com/JannatulAfrozFaria/prime-picks-client'} 
+                ServerRepo={'https://github.com/JannatulAfrozFaria/prime-picks-server'}></ProjectLayOut2>
+
                 <div data-aos="flip-up" data-aos-delay="200" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6 md:mb-12">
                     <figure>
                         <img className="w-[700px] h-full"
