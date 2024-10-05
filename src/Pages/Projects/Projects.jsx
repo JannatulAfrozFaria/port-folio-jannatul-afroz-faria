@@ -29,7 +29,8 @@ const Projects = () => {
 
                 LiveLink={'https://plenora.vercel.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/plenora'} 
-                ServerRepo={'https://github.com/JannatulAfrozFaria/career-bridge-server'}></ProjectLayOut2>
+                // ServerRepo={'https://github.com/JannatulAfrozFaria/career-bridge-server'}
+                ></ProjectLayOut2>
                 
                 {/* Project---2 */}
 
