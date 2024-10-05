@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Title from "../../Components/Title";
 import UsedTechnology from "../../Components/UsedTechnology";
+import LinkButton from "../../assets/Components/LinkButton";
 // import ProjectMenu from "./ProjectMenu";
 
 
@@ -52,7 +53,7 @@ const Projects = () => {
                         {/* Project Links------ */}
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
-                            
+                            <LinkButton></LinkButton>
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://plenora.vercel.app/">
                                 <span className="text-green-400">Plenora Architects Ltd Live Website</span>
                             </a></p>
