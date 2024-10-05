@@ -5,6 +5,7 @@ import LinkButton from "../../assets/Components/LinkButton";
 import { FaGithub } from "react-icons/fa";
 import ProjectLayOut1 from "./ProjectComponent/ProjectLayOut1";
 import ProjectLayOut2 from "./ProjectComponent/ProjectLayOut2";
+import NextJsLayOut from "./ProjectComponent/NextJsLayOut";
 // import ProjectMenu from "./ProjectMenu";
 
 
@@ -21,7 +22,7 @@ const Projects = () => {
 
             <div className="grid grid-cols-1 ">
                 {/* Project---1 */}
-                <ProjectLayOut2 image={'https://i.postimg.cc/Pr5rZCcz/welcome.jpg'} name={ 'Plenora Architects Ltd.'} description={"This is an architectural website where The firm display their projects. This is basically a service providing website where clients can know about the previous projects done by this firm and gather idea about design and construction."} 
+                <NextJsLayOut image={'https://i.postimg.cc/Pr5rZCcz/welcome.jpg'} name={ 'Plenora Architects Ltd.'} description={"This is an architectural website where The firm display their projects. This is basically a service providing website where clients can know about the previous projects done by this firm and gather idea about design and construction."} 
 
                 feature1Title={'Design and Construction Process Walkthrough :'} feature1Des={'It outlines key phases such as planning, design, material selection, and execution, helping potential clients understand how the firm operates and what to expect during their collaboration.'} 
                 feature2Title={'Client Reviews and Testimonials :'} feature2Des={"This feature highlights the satisfaction and trust the firm has built over time, offering insights into the client experience and showcasing the firm's reliability and professionalism."} 
@@ -30,7 +31,7 @@ const Projects = () => {
                 LiveLink={'https://plenora.vercel.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/plenora'} 
                 ServerRepo={'https://github.com/JannatulAfrozFaria/plenora'}
-                ></ProjectLayOut2>
+                ></NextJsLayOut>
                 
                 {/* Project---2 */}
 
