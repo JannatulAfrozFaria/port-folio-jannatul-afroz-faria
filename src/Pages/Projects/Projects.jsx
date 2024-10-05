@@ -25,7 +25,7 @@ const Projects = () => {
                 feature1Title={'User-friendly Interface'} feature1Des={'Intuitive design for effortless navigation and efficient job searching.'} 
                 feature2Title={'Mobile Accessibility'} feature2Des={'Seamless access on mobile devices, enabling job searching and networking on-the-go.'} 
                 feature3Title={'Comprehensive Job Listings'} feature3Des={'Offers Admins to add and post jobs. And Users can apply on those jobs.'} 
-                LiveLink={'https://career-bridge-a6961.web.app/'}
+                LiveLink={'https://plenora.vercel.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/career-bridge-client'} 
                 ServerRepo={'https://github.com/JannatulAfrozFaria/career-bridge-server'}></ProjectLayOut2>
                 <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
