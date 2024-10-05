@@ -19,7 +19,7 @@ const Projects = () => {
                 {/* Project---1 */}
                 <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
-                        <img className="w-[700px] h-full"
+                        <img className="w-[700px] h-[400px]"
                             src="https://i.postimg.cc/Pr5rZCcz/welcome.jpg"
                             alt="Album" />
                     </figure>
@@ -52,8 +52,9 @@ const Projects = () => {
                         {/* Project Links------ */}
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
+                            
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://plenora.vercel.app/">
-                                <span className="text-green-400">Asset Track Pro Live Website</span>
+                                <span className="text-green-400">Plenora Architects Ltd Live Website</span>
                             </a></p>
                             <p> <span className="text-gray-400 font-medium ">GitHub Link  : </span> <a href="https://github.com/JannatulAfrozFaria/plenora">
                                 <span className="text-green-400">Plenora Architects Ltd GitHub Link</span></a></p>

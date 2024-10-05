@@ -9,14 +9,10 @@ import './index.css'
 import Root from './Root/Root.jsx';
 import Home from './Pages/Home.jsx';
 import {HelmetProvider } from 'react-helmet-async';
-import Resume from './Pages/CV.jsx';
+// import Resume from './Pages/CV.jsx';
 import ContactPage from './Pages/ContactPage.jsx';
 import Education from './Pages/Education.jsx';
 import Projects from './Pages/Projects/Projects.jsx';
-import ProjectMenu from './Pages/Projects/ProjectMenu.jsx';
-import Project1 from './Pages/Projects/ProjectList/Project1.jsx';
-import Project2 from './Pages/Projects/ProjectList/Project2.jsx';
-import Project3 from './Pages/Projects/ProjectList/Project3.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -45,19 +41,7 @@ const router = createBrowserRouter([
       {
         path: "/contactPage",
         element: <ContactPage></ContactPage>
-      },
-      {
-        path: '/projectMenu/project1',
-        element: <Project1></Project1>
-      },
-      {
-        path: '/projectMenu/project2',
-        element: <Project2></Project2>
-      },
-      {
-        path: '/projectMenu/project3',
-        element: <Project3></Project3>
-      },
+      }
     ]
   },
   // {
