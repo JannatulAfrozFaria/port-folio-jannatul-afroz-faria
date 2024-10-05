@@ -20,7 +20,7 @@ const Projects = () => {
                 <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
-                            src="https://i.ibb.co/MCty8YK/notebook.png"
+                            src="https://i.postimg.cc/Pr5rZCcz/welcome.jpg"
                             alt="Album" />
                     </figure>
                     <div className="card-body text-left">
