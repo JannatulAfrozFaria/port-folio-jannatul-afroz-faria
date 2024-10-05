@@ -3,6 +3,7 @@ import Title from "../../Components/Title";
 import UsedTechnology from "../../Components/UsedTechnology";
 import LinkButton from "../../assets/Components/LinkButton";
 import { FaGithub } from "react-icons/fa";
+import ProjectLayOut1 from "./ProjectComponent/ProjectLayOut1";
 // import ProjectMenu from "./ProjectMenu";
 
 
@@ -55,19 +56,12 @@ const Projects = () => {
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div className="flex gap-3">
                             <LinkButton text={'Live Link'} link={'https://plenora.vercel.app/'} ></LinkButton>
-                            {/* <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://plenora.vercel.app/">
-                                <span className="text-green-400">Plenora Architects Ltd Live Website</span>
-                            </a></p> */}
                             <LinkButton text={'GitHub Repository Link'} icon={<FaGithub />} link={'https://github.com/JannatulAfrozFaria/plenora'} ></LinkButton>
-                            {/* <p> <span className="text-gray-400 font-medium ">GitHub Link  : </span> <a href="https://github.com/JannatulAfrozFaria/plenora">
-                                <span className="text-green-400">Plenora Architects Ltd GitHub Link</span></a></p> */}
-                            {/* <p> <span className="text-gray-400 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/asset-track-pro-server">
-                                <span className="text-green-400">Asset Track Pro Server Side Github Link</span></a> </p> */}
                         </div>
                     </div>
                 </div>
                 {/* Project---2 */}
-                <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                {/* <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                             src="https://i.ibb.co/MCty8YK/notebook.png"
@@ -83,12 +77,10 @@ const Projects = () => {
                             <li> <span className="text-gray-400 font-medium ">Asset Request System: </span>Allows Employees to browse available assets and submit requests for the required assets.</li>
                             <li> <span className="text-gray-400 font-medium ">Comprehensive Dashboard: </span>Offers Employees a personal dashboard to track their requests and HR Managers an administrative dashboard to manage asset inventory and request approvals efficiently.</li>
                         </ul>
-                        {/* Technology----- */}
                         <p className="text-lg text-yellow-500 font-medium">Used Technology :</p>
                         <div>
                             <UsedTechnology></UsedTechnology>
                         </div>
-                        {/* Project Links------ */}
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://asset-track-pro-34487.web.app/">
@@ -100,7 +92,13 @@ const Projects = () => {
                                 <span className="text-green-400">Asset Track Pro Server Side Github Link</span></a> </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <ProjectLayOut1 image={'https://i.ibb.co/MCty8YK/notebook.png'} name={'Asset Track Pro'} description={'This is an asset management website where HR managers can manage, add, update and delete assets. Employees can create asset requests and HR managers can approve or reject those requests.'} 
+                feature1Title={'User Role Management'} feature1Des={'Differentiates access controls and permissions for two user groups: Employees and HR Managers.'} 
+                feature2Title={'Asset Request System'} feature2Des={'Allows Employees to browse available assets and submit requests for the required assets.'} 
+                feature3Title={'Comprehensive Dashboard'} feature3Des={'Offers Employees a personal dashboard to track their requests and HR Managers an administrative dashboard to manage asset inventory and request approvals efficiently.'} 
+                LiveLink={'https://asset-track-pro-34487.web.app/'}
+                ClientRepo={'https://github.com/JannatulAfrozFaria/asset-track-pro-client'} ServerRepo={'https://github.com/JannatulAfrozFaria/asset-track-pro-server'}></ProjectLayOut1>
                 {/* Project---3 */}
                 <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
@@ -137,7 +135,15 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project---4 */}
-                <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                <ProjectLayOut1 image={'https://i.postimg.cc/0jyPQdL7/istockphoto-1300036753-612x612.jpg'} name={'Prime Picks'} description={"This is your one-stop destination for finding the right medicine with ease and convenience. Whether you're looking for over-the-counter remedies, prescription drugs, or wellness products, Prime Pricks allows you to explore a comprehensive collection of medicines."} 
+                feature1Title={'Advanced Filtering Options'} feature1Des={'Search for medicines by brand name, category, or date of addition, and filter them by price range to find exactly what you need.'} 
+                feature2Title={'>Flexible Sorting'} feature2Des={'Enables HR Managers to view, accept, or decline asset requests submitted by Employees.'} 
+                feature3Title={'Comprehensive Medicine Database'} feature3Des={'Comprehensive Medicine Database: </span> Access a wide range of medicines and wellness products, ensuring you can find the right solution for your health needs.'} 
+                LiveLink={'https://prime-picks-7409b.web.app/'}
+                ClientRepo={'https://github.com/JannatulAfrozFaria/prime-picks-client'} 
+                ServerRepo={'https://github.com/JannatulAfrozFaria/prime-picks-server'}></ProjectLayOut1>
+
+                {/* <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                             src="https://i.postimg.cc/0jyPQdL7/istockphoto-1300036753-612x612.jpg"
@@ -153,12 +159,10 @@ const Projects = () => {
                             <li> <span className="text-gray-400 font-medium ">Flexible Sorting:  </span>Enables HR Managers to view, accept, or decline asset requests submitted by Employees.</li>
                             <li> <span className="text-gray-400 font-medium ">Comprehensive Medicine Database: </span> Access a wide range of medicines and wellness products, ensuring you can find the right solution for your health needs.</li>
                         </ul>
-                        {/* Technology----- */}
                         <p className="text-lg text-yellow-500 font-medium">Used Technology :</p>
                         <div>
                             <UsedTechnology></UsedTechnology>
                         </div>
-                        {/* Project Links------ */}
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://prime-picks-7409b.web.app/">
@@ -170,7 +174,8 @@ const Projects = () => {
                                 <span className="text-green-400">Prime Picks Server Side Github Link</span></a> </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                
                 {/* Project---5 */}
                 <div data-aos="flip-up" data-aos-delay="200" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6 md:mb-12">
                     <figure>
