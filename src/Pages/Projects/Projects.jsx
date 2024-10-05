@@ -147,7 +147,7 @@ const Projects = () => {
                 {/* Project---4 */}
                 <ProjectLayOut1 image={'https://i.postimg.cc/0jyPQdL7/istockphoto-1300036753-612x612.jpg'} name={'Prime Picks'} description={"This is your one-stop destination for finding the right medicine with ease and convenience. Whether you're looking for over-the-counter remedies, prescription drugs, or wellness products, Prime Pricks allows you to explore a comprehensive collection of medicines."} 
                 feature1Title={'Advanced Filtering Options'} feature1Des={'Search for medicines by brand name, category, or date of addition, and filter them by price range to find exactly what you need.'} 
-                feature2Title={'>Flexible Sorting'} feature2Des={'Enables HR Managers to view, accept, or decline asset requests submitted by Employees.'} 
+                feature2Title={'Flexible Sorting'} feature2Des={'Enables HR Managers to view, accept, or decline asset requests submitted by Employees.'} 
                 feature3Title={'Comprehensive Medicine Database'} feature3Des={'Comprehensive Medicine Database: </span> Access a wide range of medicines and wellness products, ensuring you can find the right solution for your health needs.'} 
                 LiveLink={'https://prime-picks-7409b.web.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/prime-picks-client'} 

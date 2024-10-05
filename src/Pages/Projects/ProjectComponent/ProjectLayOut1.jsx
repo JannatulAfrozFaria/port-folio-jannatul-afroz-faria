@@ -2,6 +2,7 @@ import React from 'react';
 import UsedTechnology from '../../../Components/UsedTechnology';
 import LinkButton from '../../../assets/Components/LinkButton';
 import { FaGithub } from 'react-icons/fa';
+import { HiLink } from "react-icons/hi";
 
 const ProjectLayOut1 = ({image,name,description, feature1Title,feature1Des, feature2Title,feature2Des, feature3Title,feature3Des, LiveLink,ClientRepo,ServerRepo}) => {
     return (
@@ -12,7 +13,7 @@ const ProjectLayOut1 = ({image,name,description, feature1Title,feature1Des, feat
                         src={image}
                         alt="Album" />
                 </figure>
-                <div className="card-body text-left md:text-justify">
+                <div className="card-body text-justify">
                     <h2 className="card-title text-yellow-500 font-semibold">Project Name: {name}</h2>
                     <p className="text-lg text-yellow-500 font-medium">Description :</p>
                     <p>{description}</p>
@@ -30,7 +31,7 @@ const ProjectLayOut1 = ({image,name,description, feature1Title,feature1Des, feat
                     {/* Project Links------ */}
                     <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
-                        <LinkButton text={'Live Link'} link={LiveLink} ></LinkButton>
+                        <LinkButton text={'Live Link'} icon={<HiLink />} link={LiveLink} ></LinkButton>
                         <LinkButton text={'Client-Repository'} icon={<FaGithub />} link={ClientRepo} ></LinkButton>
                         <LinkButton text={'Server-Repository'} icon={<FaGithub />} link={ServerRepo} ></LinkButton>
                     </div>
