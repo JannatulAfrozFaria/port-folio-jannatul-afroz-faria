@@ -26,49 +26,11 @@ const Projects = () => {
                 feature2Title={'Mobile Accessibility'} feature2Des={'Seamless access on mobile devices, enabling job searching and networking on-the-go.'} 
                 feature3Title={'Comprehensive Job Listings'} feature3Des={'Offers Admins to add and post jobs. And Users can apply on those jobs.'} 
                 LiveLink={'https://plenora.vercel.app/'}
-                ClientRepo={'https://github.com/JannatulAfrozFaria/career-bridge-client'} 
+                ClientRepo={'https://github.com/JannatulAfrozFaria/plenora'} 
                 ServerRepo={'https://github.com/JannatulAfrozFaria/career-bridge-server'}></ProjectLayOut2>
-                <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
-                    <figure>
-                        <img className="w-[700px] h-[400px]"
-                            src="https://i.postimg.cc/Pr5rZCcz/welcome.jpg"
-                            alt="Album" />
-                    </figure>
-                    <div className="card-body text-left">
-                        <h2 className="card-title text-yellow-500 font-semibold">Project Name: Plenora Architects</h2>
-                        <p className="text-lg text-yellow-500 font-medium">Description :</p>
-                        <p>This is an architectural website where The firm display their projects. this is basically a service providing website where clients can know about the previous projects done by the company and gather idea about design and construction.</p>
-                        <p className="text-lg font-medium text-yellow-500 ">Core Feature :</p>
-                        {/* <ul>
-                            <li> <span className="text-gray-400 font-medium ">User Role Management: </span>Differentiates access controls and permissions for two user groups: Employees and HR Managers.</li>
-                            <li> <span className="text-gray-400 font-medium ">Asset Request System: </span>Allows Employees to browse available assets and submit requests for the required assets.</li>
-                            <li> <span className="text-gray-400 font-medium ">Comprehensive Dashboard: </span>Offers Employees a personal dashboard to track their requests and HR Managers an administrative dashboard to manage asset inventory and request approvals efficiently.</li>
-                        </ul> */}
-                        {/* Technology----- */}
-                        <p className="text-lg text-yellow-500 font-medium">Used Technology :</p>
-                        <div>
-                            <div className='grid grid-cols-4 md:grid-cols-8 gap-2 items-center w-4/5 md:w-5/6'> 
-                                <img className='w-16 rounded-lg' src="https://i.postimg.cc/ryJz3xZG/next-white.jpg" alt="Next.js" />
-                                <img className='w-16 rounded-lg' src="https://i.ibb.co/RPXxDxG/tailwind.png" alt="Tailwind" />
-                                <img className='w-16 rounded-lg' src="https://i.postimg.cc/XJNfVxGs/node-js.png" alt="Vercel" />
-                                <img className='w-16 h-16 rounded-lg' src="https://i.ibb.co/MG8xR7v/express.jpg" alt="Express" />
-                                <img className='w-16 rounded-lg' src="https://i.ibb.co/vJ9Cq7r/vercel.jpg" alt="Vercel" />
-                                <img className='w-16 h-16 rounded-lg' src="https://i.postimg.cc/c1bRSRsc/axios3626.jpg" alt="Vercel" />
-                                <img className='w-16 rounded-lg' src="https://i.ibb.co/pbLRSVY/mongodb-logo-D13-D67-C930-seeklogo-com.png" alt="MonoDB" />
-                                {/* <img className='w-16 rounded-lg' src="https://i.postimg.cc/ryJz3xZG/next-white.jpg" alt="Vercel" /> */}
-                                <img className='w-16 rounded-lg' src="https://i.ibb.co/DMxdFmm/firebase.png" alt="Firebase" />
-
-                            </div>
-                        </div>
-                        {/* Project Links------ */}
-                        <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
-                        <div className="flex gap-3">
-                            <LinkButton text={'Live Link'} link={'https://plenora.vercel.app/'} ></LinkButton>
-                            <LinkButton text={'GitHub Repository Link'} icon={<FaGithub />} link={'https://github.com/JannatulAfrozFaria/plenora'} ></LinkButton>
-                        </div>
-                    </div>
-                </div>
+                
                 {/* Project---2 */}
+
                 {/* <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
