@@ -183,9 +183,9 @@ const Projects = () => {
                 feature2Title={'Cultural Experiences'} feature2Des={'Immerse yourself in authentic traditions through curated tours and local experiences.'} 
                 feature3Title={'Engaging Content'} feature3Des={'Stay informed and inspired with articles, photos, and videos showcasing the beauty and diversity of Asia.'} 
                 LiveLink={'https://tourista-24a6c.web.app/'}
-                ClientRepo={'https://github.com/JannatulAfrozFaria/prime-picks-client'} 
-                ServerRepo={'https://github.com/JannatulAfrozFaria/prime-picks-server'}></ProjectLayOut2>
-
+                ClientRepo={'https://github.com/JannatulAfrozFaria/tourista-client'} 
+                ServerRepo={'https://github.com/JannatulAfrozFaria/tourista-server'}></ProjectLayOut2>
+                {/* 
                 <div data-aos="flip-up" data-aos-delay="200" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6 md:mb-12">
                     <figure>
                         <img className="w-[700px] h-full"
@@ -202,12 +202,10 @@ const Projects = () => {
                             <li> <span className="text-gray-400 font-medium ">Cultural Experiences:  </span>Immerse yourself in authentic traditions through curated tours and local experiences.</li>
                             <li> <span className="text-gray-400 font-medium ">Engaging Content: </span>Stay informed and inspired with articles, photos, and videos showcasing the beauty and diversity of Asia.</li>
                         </ul>
-                        {/* Technology----- */}
                         <p className="text-lg text-yellow-500 font-medium">Used Technology :</p>
                         <div>
                             <UsedTechnology></UsedTechnology>
                         </div>
-                        {/* Project Links------ */}
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://tourista-24a6c.web.app/">
@@ -219,7 +217,7 @@ const Projects = () => {
                                 <span className="text-green-400">Tourista Server Side Github Link</span></a> </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             {/* <ProjectMenu></ProjectMenu> */}
         </div>
