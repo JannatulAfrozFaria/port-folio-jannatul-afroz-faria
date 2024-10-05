@@ -21,15 +21,15 @@ const Projects = () => {
 
             <div className="grid grid-cols-1 ">
                 {/* Project---1 */}
-                <ProjectLayOut2 image={'https://i.postimg.cc/Pr5rZCcz/welcome.jpg'} name={ 'Plenora Architects Ltd.'} description={"This is an architectural website where The firm display their projects. this is basically a service providing website where clients can know about the previous projects done by the company and gather idea about design and construction."} 
+                <ProjectLayOut2 image={'https://i.postimg.cc/Pr5rZCcz/welcome.jpg'} name={ 'Plenora Architects Ltd.'} description={"This is an architectural website where The firm display their projects. This is basically a service providing website where clients can know about the previous projects done by this firm and gather idea about design and construction."} 
 
-                // feature1Title={'User-friendly Interface'} feature1Des={'Intuitive design for effortless navigation and efficient job searching.'} 
-                // feature2Title={'Mobile Accessibility'} feature2Des={'Seamless access on mobile devices, enabling job searching and networking on-the-go.'} 
+                feature1Title={'Design and Construction Process Walkthrough :'} feature1Des={'It outlines key phases such as planning, design, material selection, and execution, helping potential clients understand how the firm operates and what to expect during their collaboration.'} 
+                feature2Title={'Client Reviews and Testimonials :'} feature2Des={"This feature highlights the satisfaction and trust the firm has built over time, offering insights into the client experience and showcasing the firm's reliability and professionalism."} 
                 // feature3Title={'Comprehensive Job Listings'} feature3Des={'Offers Admins to add and post jobs. And Users can apply on those jobs.'} 
 
                 LiveLink={'https://plenora.vercel.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/plenora'} 
-                // ServerRepo={'https://github.com/JannatulAfrozFaria/career-bridge-server'}
+                ServerRepo={'https://github.com/JannatulAfrozFaria/plenora'}
                 ></ProjectLayOut2>
                 
                 {/* Project---2 */}
@@ -74,9 +74,9 @@ const Projects = () => {
                 ClientRepo={'https://github.com/JannatulAfrozFaria/asset-track-pro-client'} ServerRepo={'https://github.com/JannatulAfrozFaria/asset-track-pro-server'}></ProjectLayOut1>
                 {/* Project---3 */}
                 <ProjectLayOut2 image={'https://i.ibb.co/X5zdNbT/360-F-498943157-fhn9l-PRGBl-Yt-LXN8-Cb-T4-Fsbt-Fc4ths-YP.jpg'} name={'Career Bridge'} description={"This is a job seeking website where candidates can view and apply in various jobs. There are 4 categories of jobs. On-site, Remote, Part - Time, Full-Time. New Jobs can also be added here."} 
-                feature1Title={'User-friendly Interface'} feature1Des={'Intuitive design for effortless navigation and efficient job searching.'} 
-                feature2Title={'Mobile Accessibility'} feature2Des={'Seamless access on mobile devices, enabling job searching and networking on-the-go.'} 
-                feature3Title={'Comprehensive Job Listings'} feature3Des={'Offers Admins to add and post jobs. And Users can apply on those jobs.'} 
+                feature1Title={'User-friendly Interface :'} feature1Des={'Intuitive design for effortless navigation and efficient job searching.'} 
+                feature2Title={'Mobile Accessibility :'} feature2Des={'Seamless access on mobile devices, enabling job searching and networking on-the-go.'} 
+                feature3Title={'Comprehensive Job Listings :'} feature3Des={'Offers Admins to add and post jobs. And Users can apply on those jobs.'} 
                 LiveLink={'https://career-bridge-a6961.web.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/career-bridge-client'} 
                 ServerRepo={'https://github.com/JannatulAfrozFaria/career-bridge-server'}></ProjectLayOut2>
@@ -160,9 +160,9 @@ const Projects = () => {
                 
                 {/* Project---5 */}
                 <ProjectLayOut2 image={'https://i.ibb.co/xXDBv7V/3.png'} name={'Tourista'} description={"This is a tourism related website where various tourist spots can be added by users. The spot cards can be updated and deleted by the users."} 
-                feature1Title={'Comprehensive Destination Guides'} feature1Des={'Explore detailed insights into Asian destinations, from iconic landmarks to hidden gems.'} 
-                feature2Title={'Cultural Experiences'} feature2Des={'Immerse yourself in authentic traditions through curated tours and local experiences.'} 
-                feature3Title={'Engaging Content'} feature3Des={'Stay informed and inspired with articles, photos, and videos showcasing the beauty and diversity of Asia.'} 
+                feature1Title={'Comprehensive Destination Guides :'} feature1Des={'Explore detailed insights into Asian destinations, from iconic landmarks to hidden gems.'} 
+                feature2Title={'Cultural Experiences :'} feature2Des={'Immerse yourself in authentic traditions through curated tours and local experiences.'} 
+                feature3Title={'Engaging Content :'} feature3Des={'Stay informed and inspired with articles, photos, and videos showcasing the beauty and diversity of Asia.'} 
                 LiveLink={'https://tourista-24a6c.web.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/tourista-client'} 
                 ServerRepo={'https://github.com/JannatulAfrozFaria/tourista-server'}></ProjectLayOut2>

@@ -8,11 +8,11 @@ import { PiLinkSimpleHorizontalBold } from "react-icons/pi";
 const ProjectLayOut2 = ({ image, name, description, feature1Title, feature1Des, feature2Title, feature2Des, feature3Title, feature3Des, LiveLink, ClientRepo, ServerRepo,GitHubRepo }) => {
     return (
         <div>
-            <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-base-100 shadow-xl mb-6">
+            <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2  bg-base-100 shadow-xl">
                 {/* Image will be displayed first on mobile, but second on larger screens */}
                 <div className="order-1 md:order-2">
-                    <figure>
-                        <img className="h-full"
+                    <figure className='h-full'>
+                        <img className="h-full w-full object-cover"
                             src={image}
                             alt="Project" />
                     </figure>
@@ -25,9 +25,9 @@ const ProjectLayOut2 = ({ image, name, description, feature1Title, feature1Des, 
                     <p>{description}</p>
                     <p className="text-lg font-medium text-yellow-500 ">Core Feature :</p>
                     <ul>
-                        <li> <span className="text-gray-400 font-medium ">{feature1Title}: </span>{feature1Des}</li>
-                        <li> <span className="text-gray-400 font-medium ">{feature2Title}: </span>{feature2Des}</li>
-                        <li> <span className="text-gray-400 font-medium ">{feature3Title}: </span>{feature3Des}</li>
+                        <li> <span className="text-gray-400 font-medium ">{feature1Title} </span>{feature1Des}</li>
+                        <li> <span className="text-gray-400 font-medium ">{feature2Title} </span>{feature2Des}</li>
+                        <li> <span className="text-gray-400 font-medium ">{feature3Title} </span>{feature3Des}</li>
                     </ul>
 
                     {/* Technology */}
