@@ -101,6 +101,14 @@ const Projects = () => {
                 LiveLink={'https://asset-track-pro-34487.web.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/asset-track-pro-client'} ServerRepo={'https://github.com/JannatulAfrozFaria/asset-track-pro-server'}></ProjectLayOut1>
                 {/* Project---3 */}
+                <ProjectLayOut2 image={'https://i.ibb.co/X5zdNbT/360-F-498943157-fhn9l-PRGBl-Yt-LXN8-Cb-T4-Fsbt-Fc4ths-YP.jpg'} name={'Career Bridge'} description={"This is a job seeking website where candidates can view and apply in various jobs. There are 4 categories of jobs. On-site, Remote, Part - Time, Full-Time. New Jobs can also be added here."} 
+                feature1Title={'User-friendly Interface'} feature1Des={'Explore detailed insights into Asian destinations, from iconic landmarks to hidden gems.'} 
+                feature2Title={'Cultural Experiences'} feature2Des={'Immerse yourself in authentic traditions through curated tours and local experiences.'} 
+                feature3Title={'Engaging Content'} feature3Des={'Stay informed and inspired with articles, photos, and videos showcasing the beauty and diversity of Asia.'} 
+                LiveLink={'https://tourista-24a6c.web.app/'}
+                ClientRepo={'https://github.com/JannatulAfrozFaria/tourista-client'} 
+                ServerRepo={'https://github.com/JannatulAfrozFaria/tourista-server'}></ProjectLayOut2>
+
                 <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
