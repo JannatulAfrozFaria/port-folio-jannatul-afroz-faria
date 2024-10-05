@@ -6,7 +6,7 @@ import UsedTechnology from '../../../Components/UsedTechnology';
 const ProjectLayOut2 =({image,name,description, feature1Title,feature1Des, feature2Title,feature2Des, feature3Title,feature3Des, LiveLink,ClientRepo,ServerRepo}) => {
     return (
         <div>
-            <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-base-100 shadow-xl mb-6">
+            <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-base-100 shadow-xl mb-6">
                 <div className="card-body text-left md:text-justify">
                     <h2 className="card-title text-yellow-500 font-semibold">Project Name: {name}</h2>
                     <p className="text-lg text-yellow-500 font-medium">Description :</p>

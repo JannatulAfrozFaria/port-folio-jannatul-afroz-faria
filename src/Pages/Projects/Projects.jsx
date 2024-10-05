@@ -106,10 +106,10 @@ const Projects = () => {
                 feature2Title={'Mobile Accessibility'} feature2Des={'Seamless access on mobile devices, enabling job searching and networking on-the-go.'} 
                 feature3Title={'Comprehensive Job Listings'} feature3Des={'Offers Admins to add and post jobs. And Users can apply on those jobs.'} 
                 LiveLink={'https://career-bridge-a6961.web.app/'}
-                ClientRepo={'https://github.com/JannatulAfrozFaria/tourista-client'} 
-                ServerRepo={'https://github.com/JannatulAfrozFaria/tourista-server'}></ProjectLayOut2>
+                ClientRepo={'https://github.com/JannatulAfrozFaria/career-bridge-client'} 
+                ServerRepo={'https://github.com/JannatulAfrozFaria/career-bridge-server'}></ProjectLayOut2>
 
-                <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
+                {/* <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="card lg:card-side bg-base-100 shadow-xl mb-6">
                     <figure>
                         <img className="w-[700px] h-full"
                             src="https://i.ibb.co/X5zdNbT/360-F-498943157-fhn9l-PRGBl-Yt-LXN8-Cb-T4-Fsbt-Fc4ths-YP.jpg"
@@ -125,12 +125,12 @@ const Projects = () => {
                             <li> <span className="text-gray-400 font-medium ">Mobile Accessibility:  </span>Seamless access on mobile devices, enabling job searching and networking on-the-go.</li>
                             <li> <span className="text-gray-400 font-medium ">Comprehensive Job Listings: </span>Offers Admins to add and post jobs. And Users can apply on those jobs.</li>
                         </ul>
-                        {/* Technology----- */}
+
                         <p className="text-lg text-yellow-500 font-medium">Used Technology :</p>
                         <div>
                             <UsedTechnology></UsedTechnology>
                         </div>
-                        {/* Project Links------ */}
+ 
                         <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                         <div>
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://career-bridge-a6961.web.app/">
@@ -142,7 +142,8 @@ const Projects = () => {
                                 <span className="text-green-400">Career Bridge Server Side Github Link</span></a> </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                
                 {/* Project---4 */}
                 <ProjectLayOut1 image={'https://i.postimg.cc/0jyPQdL7/istockphoto-1300036753-612x612.jpg'} name={'Prime Picks'} description={"This is your one-stop destination for finding the right medicine with ease and convenience. Whether you're looking for over-the-counter remedies, prescription drugs, or wellness products, Prime Pricks allows you to explore a comprehensive collection of medicines."} 
                 feature1Title={'Advanced Filtering Options'} feature1Des={'Search for medicines by brand name, category, or date of addition, and filter them by price range to find exactly what you need.'} 
