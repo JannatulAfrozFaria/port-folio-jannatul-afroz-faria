@@ -55,10 +55,10 @@ const Projects = () => {
                             <p> <span className="text-gray-400 font-medium ">Live Link : </span> <a href="https://plenora.vercel.app/">
                                 <span className="text-green-400">Asset Track Pro Live Website</span>
                             </a></p>
-                            <p> <span className="text-gray-400 font-medium ">GitHub Link (client-side) : </span> <a href="https://github.com/JannatulAfrozFaria/asset-track-pro-client">
-                                <span className="text-green-400">Asset Track Pro Client Side GitHub Link</span></a></p>
-                            <p> <span className="text-gray-400 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/asset-track-pro-server">
-                                <span className="text-green-400">Asset Track Pro Server Side Github Link</span></a> </p>
+                            <p> <span className="text-gray-400 font-medium ">GitHub Link  : </span> <a href="https://github.com/JannatulAfrozFaria/plenora">
+                                <span className="text-green-400">Plenora Architects Ltd GitHub Link</span></a></p>
+                            {/* <p> <span className="text-gray-400 font-medium ">GitHub Link (server-side) : </span> <a href="https://github.com/JannatulAfrozFaria/asset-track-pro-server">
+                                <span className="text-green-400">Asset Track Pro Server Side Github Link</span></a> </p> */}
                         </div>
                     </div>
                 </div>
