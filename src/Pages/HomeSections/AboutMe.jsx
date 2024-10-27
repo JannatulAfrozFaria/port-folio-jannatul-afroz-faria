@@ -33,9 +33,11 @@ const AboutMe = () => {
             <div className="w-full md:w-3/4 mt-6">
                 <h2 data-aos="fade-left" data-aos-delay="1500"  data-aos-duration="2000"className="card-title text-yellow-500 text-lg font-semibold">About Me</h2>
                 <div data-aos="fade-left" data-aos-delay="2000" data-aos-duration="2000" className="mb-6 text-justify text-yellow-300">
-                    <p>I am an entry level frontend web developer skilled in building responsive and interactive user interfaces using modern web technologies such as HTML, CSS, Bootstrap, Tailwind CSS, React.js, and Node.js. 
+                    <p>I'm a Web Developer with expertise in HTML, CSS, Tailwind, JavaScript, React.js, Node.js, MongoDB, and Express.js. Currently advancing my skills in Next.js, I focus on building responsive, user-friendly interfaces and have hands-on experience translating Figma designs into functional web pages. 
+                        {/* I’m also experienced with Vercel for deploying projects, gaining practical knowledge in continuous integration and deployment pipelines. */}
                     </p>
-                    <p>I am capable of creating single-page applications and managing and storing data with MongoDB. With a passion for creating seamless user experiences, I thrive in collaborative environments where I can contribute to the full lifecycle of web development. 
+                    <p> My strengths include strong communication skills in English (written and oral), punctuality, and a collaborative spirit, making me a reliable team player. I’m highly adaptable, eager to learn, and flexible with working hours to meet project demands. I'm excited to keep expanding my skill set and contribute meaningfully to impactful projects!
+                        {/* I am capable of creating single-page applications and managing and storing data with MongoDB. With a passion for creating seamless user experiences, I thrive in collaborative environments where I can contribute to the full lifecycle of web development.  */}
                     </p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="3000"className="card-actions justify-start">

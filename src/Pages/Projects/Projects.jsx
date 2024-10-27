@@ -20,7 +20,7 @@ const Projects = () => {
                 <Title heading={'projects'}></Title>
             </div>
 
-            <div className="grid grid-cols-1 mb-6">
+            <div className="grid grid-cols-1 mb-6 md:mb-24">
                 {/* Project---1 */}
                 <NextJsLayOut image={'https://i.postimg.cc/Pr5rZCcz/welcome.jpg'} name={ 'Plenora Architects Ltd.'} description={"This is an architectural website where The firm display their projects. This is basically a service providing website where clients can know about the previous projects done by this firm and gather idea about design and construction."} 
 
