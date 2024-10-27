@@ -32,7 +32,7 @@ const Education = () => {
                         <h2 className="card-title">Graduation</h2>
                         <div>
                             <p>University:  Chittagong University of Engineering and Technology</p>
-                            <p>Passing Year: 2022</p>
+                            {/* <p>Passing Year: 2022</p> */}
                             <p>GPA: 3.20/4.00</p>
                         </div>
                     </div>
