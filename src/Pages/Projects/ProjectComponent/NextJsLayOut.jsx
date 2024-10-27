@@ -5,7 +5,7 @@ import UsedTechnology from '../../../Components/UsedTechnology';
 import { HiLink } from 'react-icons/hi';
 import { PiLinkSimpleHorizontalBold } from "react-icons/pi";
 
-const NextJsLayOut = ({ image, name, description, feature1Title, feature1Des, feature2Title, feature2Des, feature3Title, feature3Des, LiveLink, ClientRepo, ServerRepo, GitHubRepo }) => {
+const NextJsLayOut = ({ image, name, description, feature1Title, feature1Des, feature2Title, feature2Des, feature3Title, feature3Des, LiveLink, ClientRepo, VideoDemo, GitHubRepo }) => {
     return (
         <div>
             <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2  bg-base-100 shadow-xl">
@@ -54,8 +54,8 @@ const NextJsLayOut = ({ image, name, description, feature1Title, feature1Des, fe
                     <p className="text-lg text-yellow-500 font-medium">Project Links :</p>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                         <LinkButton text={'Live Link'} icon={<PiLinkSimpleHorizontalBold />} link={LiveLink} ></LinkButton>
-                        <LinkButton text={'Client-Repository'} icon={<FaGithub />} link={ClientRepo} ></LinkButton>
-                        <LinkButton text={'Server-Repository'} icon={<FaGithub />} link={ServerRepo} ></LinkButton>
+                        <LinkButton text={'Github-Repository'} icon={<FaGithub />} link={ClientRepo} ></LinkButton>
+                        <LinkButton text={'Video-Demo'} icon={<FaGithub />} link={ServerRepo} ></LinkButton>
                         {/* <LinkButton text={'GitHub-Repository'} icon={<FaGithub />} link={GitHubRepo} ></LinkButton> */}
                     </div>
                 </div>
