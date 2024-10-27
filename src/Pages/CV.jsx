@@ -4,6 +4,7 @@ import slide1 from '../assets/images/cv/Slide1.jpg';
 import slide2 from '../assets/images/cv/Slide2.jpg';
 import slide3 from '../assets/images/cv/Slide3.jpg';
 import slide4 from '../assets/images/cv/Slide4.jpg';
+import Swal from "sweetalert2";
 
 
 const CV = () => {
@@ -15,12 +16,12 @@ const CV = () => {
     }
     const handleShowImage = (image)=>{
         Swal.fire({
-            title: "Sweet!",
-            text: "Modal with a custom image.",
+            title: "Cirriculum Vitae",
+            // text: "Page",
             // imageUrl: "https://unsplash.it/400/200",
             imageUrl: `${image}`,
             imageWidth: 400,
-            imageHeight: 200,
+            imageHeight: 600,
             imageAlt: "Custom image"
           });
     }
