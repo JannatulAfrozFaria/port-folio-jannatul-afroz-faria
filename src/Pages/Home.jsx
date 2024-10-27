@@ -37,13 +37,13 @@ const Home = () => {
                         <p data-aos="fade-right" data-aos-duration="1000"
                         className='text-orange-200 z-10 text-right text-base  md:text-4xl'>Hello, I'm Jannatul Afroz Faria!</p>
                         <div data-aos="fade-right" data-aos-duration="2000"
-                         className='pt-6 flex justify-end'>
-                            
+                         className='pt-6 flex justify-end'> 
                             <img className='rounded-3xl h-full md:h-[380px]' src="https://i.ibb.co/m8b52Sq/5718116.png" alt="" />
                         </div>
                     </div>
                     <div data-aos="fade-right" data-aos-duration="3000">
-                        <img src="https://i.ibb.co/cybtGJN/banner-pic-removebg-preview.png" alt="" />
+                        {/* <img src="https://i.ibb.co/cybtGJN/banner-pic-removebg-preview.png" alt="" /> */}
+                        <img src="https://ibb.co/3hWxLfB" alt="" />
                     </div>
                 </div>
             </div>
