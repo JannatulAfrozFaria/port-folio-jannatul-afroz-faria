@@ -32,7 +32,7 @@ const Home = () => {
                 data-aos-easing="ease-in-out"
                 data-aos-anchor-placement="top-center"
                 className='img_bg_banner mt-12'>
-                <div className='grid grid-cols-3 items-end justify-center py-8 md:py-24 w-3/4 mx-auto '>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 items-end justify-center py-8 md:py-24 w-3/4 mx-auto '>
                     <div className='col-span-2'>
                         <p data-aos="fade-right" data-aos-duration="1000"
                         className='text-orange-200 z-10 text-right text-base  md:text-4xl'>Hello, I'm Jannatul Afroz Faria!</p>
@@ -41,9 +41,9 @@ const Home = () => {
                             <img className='rounded-3xl h-full md:h-[380px]' src="https://i.ibb.co/m8b52Sq/5718116.png" alt="" />
                         </div>
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="3000">
+                    <div className='hidden md:block' data-aos="fade-right" data-aos-duration="3000">
                         {/* <img src="https://i.ibb.co/cybtGJN/banner-pic-removebg-preview.png" alt="" /> */}
-                        <img src="https://ibb.co/3hWxLfB" alt="" />
+                        <img src="https://i.postimg.cc/hPBbVqM5/2024-10-27-at-20-07-39-bg2.png" alt="" />
                     </div>
                 </div>
             </div>
