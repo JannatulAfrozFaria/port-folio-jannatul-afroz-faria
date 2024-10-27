@@ -78,3 +78,18 @@
     color: rgb(207, 185, 106);
     font-weight: 500;
 }
+
+
+/* CLASS FOR SWAL BUTTON */
+.custom-close-button {
+    background-color: #3498db;  
+    color: white;               
+    font-weight: bold;          
+    border-radius: 5px;         
+    padding: 10px 20px;         
+    transition: 0.3s ease;      
+}
+
+.custom-close-button:hover {
+    background-color: #2980b9;  /* Darker shade on hover */
+}

@@ -24,7 +24,6 @@ const CV = () => {
         Swal.fire({
             // title: "Cirriculum Vitae",
             text: `${idx+1}`,
-            // imageUrl: "https://unsplash.it/400/200",
             imageUrl: `${image}`,
             imageWidth: 370,
             imageHeight: 500,
