@@ -23,12 +23,16 @@ const CV = () => {
     const handleShowImage = (image,idx) => {
         Swal.fire({
             // title: "Cirriculum Vitae",
-            text: `${idx+1}`,
+            text: `Page ${idx+1}`,
             imageUrl: `${image}`,
             imageWidth: 370,
             imageHeight: 500,
             imageAlt: "CVimage",
             confirmButtonText: "Close",
+            customClass: {
+                confirmButton: 'custom-close-button'
+            }
+
         });
     }
     return (
@@ -50,27 +54,6 @@ const CV = () => {
                         </button>
                     </div>
                 )}
-                {/* <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="3000" className="shadow-md">
-                    <button onClick={() => handleShowImage(slide1)}>
-                        <img className="w-full h-full" src={slide1} alt="" />
-                    </button>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="3000" className="shadow-md">
-                    <button onClick={() => handleShowImage(slide2)}>
-                        <img className="w-full h-full" src={slide2} alt="" />
-                    </button>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="3000" className="shadow-md">
-                    <button onClick={() => handleShowImage(slide3)}>
-                        <img className="w-full" src={slide3} alt="" />
-                    </button>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="2000" data-aos-duration="3000" className="shadow-md"
-                >
-                    <button onClick={() => handleShowImage(slide4)}>
-                        <img className="w-full" src={slide4} alt="" />
-                    </button>
-                </div> */}
 
                 {/* className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500" */}
 
