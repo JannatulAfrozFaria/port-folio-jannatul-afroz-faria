@@ -5,7 +5,7 @@ const Certifications = () => {
     return (
         <div>
              <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000">
-                    <Title heading={'Added Value'}></Title>
+                    <Title heading={'Certifications'}></Title>
             </div>
             <div  className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
                 <div data-aos="fade-up-right" data-aos-delay="200" data-aos-duration="3000"  className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
