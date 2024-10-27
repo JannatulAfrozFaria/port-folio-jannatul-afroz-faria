@@ -13,6 +13,17 @@ const CV = () => {
         link.download = 'cv_jannatul_Afroz_Faria_Front_End_Developer.pdf';
         link.click();
     }
+    const handleShowImage = (image)=>{
+        Swal.fire({
+            title: "Sweet!",
+            text: "Modal with a custom image.",
+            // imageUrl: "https://unsplash.it/400/200",
+            imageUrl: `${image}`,
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: "Custom image"
+          });
+    }
     return (
         <div>
             <Helmet>
@@ -26,7 +37,10 @@ const CV = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 w-3/4 mx-auto">
                 <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="3000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
-                    <img className="w-full" src={slide1} alt="" />
+                    {/* <img className="w-full" src={slide1} alt="" /> */}
+                    <button onClick={()=>handleShowImage(slide1)}>
+                        <img className="w-full" src={slide1} alt="" />
+                    </button>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="3000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
                     <img className="w-full" src={slide2} alt="" />
