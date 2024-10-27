@@ -4,6 +4,7 @@ import AboutMe from './HomeSections/AboutMe';
 import card from '../assets/images/banner/5718116.png'
 import SkillSet from './HomeSections/SkillSet';
 import Contact from './HomeSections/Contact';
+import Certifications from './HomeSections/Certifications';
 
 
 const Home = () => {
@@ -49,6 +50,7 @@ const Home = () => {
             </div>
             <AboutMe></AboutMe>
             <SkillSet></SkillSet>
+            <Certifications></Certifications>
             <Contact></Contact>
         </div>
     );
