@@ -37,9 +37,10 @@ const Contact = () => {
                             <h2 className="card-title text-yellow-600">Email</h2>
                             <div className="mt-6">
                                 <button className="btn btn-base w-full text-lg"> 
-                                    <Link className="flex gap-1 justify-center items-center" to={'/contactPage'}>
+                                    {/* <Link className="flex gap-1 justify-center items-center" to={'/contactPage'}>
                                         <MdEmail className="mr-1" />Contact me
-                                    </Link>
+                                    </Link> */}
+                                    <a className='text-theme hover:underline' href="mailto:afroz_faria03@yahoo.com">afroz_faria03@yahoo.com</a>
                                 </button>
                             </div>
                     </div>
