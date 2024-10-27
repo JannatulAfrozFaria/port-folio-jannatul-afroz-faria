@@ -4,6 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import UsedTechnology from '../../../Components/UsedTechnology';
 import { HiLink } from 'react-icons/hi';
 import { PiLinkSimpleHorizontalBold } from "react-icons/pi";
+import { MdOutlineVideoLibrary } from "react-icons/md";
 
 const NextJsLayOut = ({ image, name, description, feature1Title, feature1Des, feature2Title, feature2Des, feature3Title, feature3Des, LiveLink, ClientRepo, VideoDemo, GitHubRepo }) => {
     return (
@@ -55,7 +56,7 @@ const NextJsLayOut = ({ image, name, description, feature1Title, feature1Des, fe
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                         <LinkButton text={'Live Link'} icon={<PiLinkSimpleHorizontalBold />} link={LiveLink} ></LinkButton>
                         <LinkButton text={'Github-Repository'} icon={<FaGithub />} link={ClientRepo} ></LinkButton>
-                        <LinkButton text={'Video-Demo'} icon={<FaGithub />} link={VideoDemo} ></LinkButton>
+                        <LinkButton text={'Video-Demo'} icon={<MdOutlineVideoLibrary />} link={VideoDemo} ></LinkButton>
                         {/* <LinkButton text={'GitHub-Repository'} icon={<FaGithub />} link={GitHubRepo} ></LinkButton> */}
                     </div>
                 </div>
