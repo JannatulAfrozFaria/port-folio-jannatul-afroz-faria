@@ -30,7 +30,7 @@ const Projects = () => {
 
                 LiveLink={'https://plenora.vercel.app/'}
                 ClientRepo={'https://github.com/JannatulAfrozFaria/plenora'} 
-                VideoDemo={'https://github.com/JannatulAfrozFaria/plenora'}
+                VideoDemo={'https://drive.google.com/file/d/1-fm2SAwgOPVq8qxXsioSqtl3IA6ZLT89/view?usp=sharing'}
                 ></NextJsLayOut>
                 
                 {/* Project---2 */}

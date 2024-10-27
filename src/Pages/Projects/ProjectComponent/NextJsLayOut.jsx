@@ -55,7 +55,7 @@ const NextJsLayOut = ({ image, name, description, feature1Title, feature1Des, fe
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                         <LinkButton text={'Live Link'} icon={<PiLinkSimpleHorizontalBold />} link={LiveLink} ></LinkButton>
                         <LinkButton text={'Github-Repository'} icon={<FaGithub />} link={ClientRepo} ></LinkButton>
-                        <LinkButton text={'Video-Demo'} icon={<FaGithub />} link={ServerRepo} ></LinkButton>
+                        <LinkButton text={'Video-Demo'} icon={<FaGithub />} link={VideoDemo} ></LinkButton>
                         {/* <LinkButton text={'GitHub-Repository'} icon={<FaGithub />} link={GitHubRepo} ></LinkButton> */}
                     </div>
                 </div>
