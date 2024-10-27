@@ -8,22 +8,29 @@ import Swal from "sweetalert2";
 
 
 const CV = () => {
+    const cvItems = [
+        { imgSource: slide1, id: "img1", index: 0 },
+        { imgSource: slide2, id: "img2", index: 1 },
+        { imgSource: slide3, id: "img3", index: 2 },
+        { imgSource: slide4, id: "img4", index: 3 },
+    ];
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = `/cv_jannatul_Afroz_Faria_Front_End_Developer.pdf`;
         link.download = 'cv_jannatul_Afroz_Faria_Front_End_Developer.pdf';
         link.click();
     }
-    const handleShowImage = (image)=>{
+    const handleShowImage = (image) => {
         Swal.fire({
-            title: "Cirriculum Vitae",
+            // title: "Cirriculum Vitae",
             // text: "Page",
             // imageUrl: "https://unsplash.it/400/200",
             imageUrl: `${image}`,
-            imageWidth: 400,
-            imageHeight: 600,
-            imageAlt: "Custom image"
-          });
+            imageWidth: 370,
+            imageHeight: 500,
+            imageAlt: "CVimage",
+            confirmButtonText: "Close",
+        });
     }
     return (
         <div>
@@ -37,28 +44,44 @@ const CV = () => {
                 <button className="btn btn-base w-72 " onClick={handleDownload}>Download CV</button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 w-3/4 mx-auto">
-                <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="3000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
-                    {/* <img className="w-full" src={slide1} alt="" /> */}
-                    <button onClick={()=>handleShowImage(slide1)}>
-                        <img className="w-full" src={slide1} alt="" />
+                {cvItems.map((item) =>
+                    <div key={item.id} data-aos="fade-up" data-aos-delay="500" data-aos-duration="3000" className="shadow-md">
+                        <button onClick={() => handleShowImage(item.imgSource,item.index)}>
+                            <img className="w-full h-full" src={item.imgSource} alt="" />
+                        </button>
+                    </div>
+                )}
+                {/* <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="3000" className="shadow-md">
+                    <button onClick={() => handleShowImage(slide1)}>
+                        <img className="w-full h-full" src={slide1} alt="" />
                     </button>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="3000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
-                    <img className="w-full" src={slide2} alt="" />
+                <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="3000" className="shadow-md">
+                    <button onClick={() => handleShowImage(slide2)}>
+                        <img className="w-full h-full" src={slide2} alt="" />
+                    </button>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="3000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
-                    <img className="w-full" src={slide3} alt="" />
+                <div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="3000" className="shadow-md">
+                    <button onClick={() => handleShowImage(slide3)}>
+                        <img className="w-full" src={slide3} alt="" />
+                    </button>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="2000" data-aos-duration="3000" className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500">
-                    <img className="w-full" src={slide4} alt="" />
-                </div>
+                <div data-aos="fade-up" data-aos-delay="2000" data-aos-duration="3000" className="shadow-md"
+                >
+                    <button onClick={() => handleShowImage(slide4)}>
+                        <img className="w-full" src={slide4} alt="" />
+                    </button>
+                </div> */}
+
+                {/* className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500" */}
+                
             </div>
             {/* EXTRA CURRICULAR AND ACHIEVEMENT SECTION--------- */}
             <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000">
-                    <Title heading={'Added Value'}></Title>
+                <Title heading={'Added Value'}></Title>
             </div>
-            <div  className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
-                <div data-aos="fade-up-right" data-aos-delay="200" data-aos-duration="3000"  className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
+            <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-3/4 mx-auto">
+                <div data-aos="fade-up-right" data-aos-delay="200" data-aos-duration="3000" className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
                     <p className="text-yellow-600 card-title">Extra Curricular</p>
                     <p><span className="text-yellow-600 font-medium" >Title :</span> Smart Book Writer</p>
                     <p><span className="text-yellow-600 font-medium" >Organization : </span>10 Minute School</p>
