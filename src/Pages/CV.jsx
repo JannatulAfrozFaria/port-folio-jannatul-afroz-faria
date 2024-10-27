@@ -20,10 +20,10 @@ const CV = () => {
         link.download = 'cv_jannatul_Afroz_Faria_Front_End_Developer.pdf';
         link.click();
     }
-    const handleShowImage = (image) => {
+    const handleShowImage = (image,idx) => {
         Swal.fire({
             // title: "Cirriculum Vitae",
-            // text: "Page",
+            text: `${idx+1}`,
             // imageUrl: "https://unsplash.it/400/200",
             imageUrl: `${image}`,
             imageWidth: 370,
@@ -74,7 +74,7 @@ const CV = () => {
                 </div> */}
 
                 {/* className="border border-r-2 border-r-yellow-500 border-b-2 border-b-yellow-500" */}
-                
+
             </div>
             {/* EXTRA CURRICULAR AND ACHIEVEMENT SECTION--------- */}
             <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="3000">
