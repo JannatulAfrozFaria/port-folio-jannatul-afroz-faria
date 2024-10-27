@@ -3,8 +3,8 @@ import Title from "../../Components/Title";
 const AboutMe = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = `/Resume_of_Jannatul_Afroz_Faria.pdf`;
-        link.download = 'Resume_of_Jannatul_Afroz_Faria.pdf';
+        link.href = `/Frontend_Developer_Resume_of_Jannatul_Afroz_Faria.pdf`;
+        link.download = 'Frontend_Developer_Resume_of_Jannatul_Afroz_Faria.pdf';
         link.click();
         }
 
