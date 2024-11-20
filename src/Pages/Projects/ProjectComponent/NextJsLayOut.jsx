@@ -1,7 +1,6 @@
 import React from 'react';
 import LinkButton from '../../../assets/Components/LinkButton';
 import { FaGithub } from 'react-icons/fa';
-import UsedTechnology from '../../../Components/UsedTechnology';
 import { HiLink } from 'react-icons/hi';
 import { PiLinkSimpleHorizontalBold } from "react-icons/pi";
 import { MdOutlineVideoLibrary } from "react-icons/md";

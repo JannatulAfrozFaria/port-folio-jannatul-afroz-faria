@@ -1,9 +1,10 @@
 import React from 'react';
 import LinkButton from '../../../assets/Components/LinkButton';
 import { FaGithub } from 'react-icons/fa';
-import UsedTechnology from '../../../Components/UsedTechnology';
+
 import { HiLink } from 'react-icons/hi';
 import { PiLinkSimpleHorizontalBold } from "react-icons/pi";
+import UsedTechnology from '../../../Components/UsedTechnology';
 
 const ProjectLayOut2 = ({ image, name, description, feature1Title, feature1Des, feature2Title, feature2Des, feature3Title, feature3Des, LiveLink, ClientRepo, ServerRepo,GitHubRepo }) => {
     return (

@@ -24,7 +24,7 @@ const Certifications = () => {
                      <img src="https://i.postimg.cc/fWCg1Qtn/Black-Belt.jpg" alt="Certificate of black-belt" />
                 </div>
             </div>
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center mb-8 w-1/2 mx-auto">
                 <div data-aos="fade-up-right" data-aos-delay="200" data-aos-duration="3000"  className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
                     <p className="text-yellow-600 card-title">Certificate of Excellence</p>
                     <p><span className="text-yellow-600 font-medium" >Issued By :</span> English Language Club</p>

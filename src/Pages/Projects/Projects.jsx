@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Title from "../../Components/Title";
-import UsedTechnology from "../../Components/UsedTechnology";
+
 import LinkButton from "../../assets/Components/LinkButton";
 import { FaGithub } from "react-icons/fa";
 import ProjectLayOut1 from "./ProjectComponent/ProjectLayOut1";
