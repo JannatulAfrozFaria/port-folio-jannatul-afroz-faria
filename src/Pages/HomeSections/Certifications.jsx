@@ -30,7 +30,7 @@ const Certifications = () => {
                     <p><span className="text-yellow-600 font-medium" >Issued By :</span> English Language Club</p>
                     <p><span className="text-yellow-600 font-medium" >Organization : </span>Programming Hero</p>
                     {/* <p> <span className="text-yellow-600 font-medium" >Timeline : </span> January 2019 – December 2019 </p> */}
-                    <img src="https://i.postimg.cc/K8RVnpYX/PH.png" alt="Certificate of completion" />
+                    <img src="https://i.ibb.co/Mg6whMc/Certificate-of-Excellence.jpg" alt="Certificate of Excellence" />
                 </div>
             </div>
         </div>
