@@ -24,6 +24,15 @@ const Certifications = () => {
                      <img src="https://i.postimg.cc/fWCg1Qtn/Black-Belt.jpg" alt="Certificate of black-belt" />
                 </div>
             </div>
+            <div className="flex justify-center mb-8">
+                <div data-aos="fade-up-right" data-aos-delay="200" data-aos-duration="3000"  className="shadow-lg shadow-yellow-600 card-body card-bordered rounded-3xl" >
+                    <p className="text-yellow-600 card-title">Certificate of Excellence</p>
+                    <p><span className="text-yellow-600 font-medium" >Issued By :</span> English Language Club</p>
+                    <p><span className="text-yellow-600 font-medium" >Organization : </span>Programming Hero</p>
+                    {/* <p> <span className="text-yellow-600 font-medium" >Timeline : </span> January 2019 – December 2019 </p> */}
+                    <img src="https://i.postimg.cc/K8RVnpYX/PH.png" alt="Certificate of completion" />
+                </div>
+            </div>
         </div>
     );
 };
