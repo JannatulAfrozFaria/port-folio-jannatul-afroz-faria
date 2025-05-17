@@ -79,7 +79,7 @@ const AboutMe = () => {
                     </p> */}
             <p>
               I'm a Front-End Web Developer with 6 months of remote experience
-              at N. I. Bloom Investments, where I contributed to building
+              at N. I. Bloom Investments Ltd, where I contributed to building
               scalable, user-focused web applications. I specialize in React.js,
               Next.js, JavaScript, and modern CSS frameworks like Tailwind CSS
               and DaisyUI. <p className="mt-2">At N.I. Bloom, I developed reusable UI components
